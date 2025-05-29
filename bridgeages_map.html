@@ -1,0 +1,2691 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e624cb63892549fa75c28308c8bc287f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e624cb63892549fa75c28308c8bc287f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e624cb63892549fa75c28308c8bc287f = L.map(
+                "map_e624cb63892549fa75c28308c8bc287f",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_48e5bbce173b6e1705aaf64b02ef34a5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_48e5bbce173b6e1705aaf64b02ef34a5.addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var marker_bcb3d83b530b349d92e711069350e18b = L.marker(
+                [40.749411, -73.756855],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_8fe17f29813abc8b0d37bcc1e3c4781e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_bcb3d83b530b349d92e711069350e18b.setIcon(icon_8fe17f29813abc8b0d37bcc1e3c4781e);
+        
+    
+        var popup_590f4f50183354534721aec121a67d26 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_7709e2de94195996a4c46ada32ac052a = $(`<div id="html_7709e2de94195996a4c46ada32ac052a" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1055320<br><strong>Year Built:</strong> 1959<br><strong>Clearance Height:</strong> 14.1 feet<br><strong>Underpass:</strong> LONG ISLAND EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 07/30/2013-<br>07/30/2013</div>`)[0];
+                popup_590f4f50183354534721aec121a67d26.setContent(html_7709e2de94195996a4c46ada32ac052a);
+            
+        
+
+        marker_bcb3d83b530b349d92e711069350e18b.bindPopup(popup_590f4f50183354534721aec121a67d26)
+        ;
+
+        
+    
+    
+            var marker_2fdcb4c87737098873dd42593f1449b6 = L.marker(
+                [40.766958, -73.887576],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_70743845a230ca94fca813d60f992236 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_2fdcb4c87737098873dd42593f1449b6.setIcon(icon_70743845a230ca94fca813d60f992236);
+        
+    
+        var popup_5c107f730d8e10cc5f5eefd1ecbd035a = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_f5f39a51878f071692fd6ec0d70d1eda = $(`<div id="html_f5f39a51878f071692fd6ec0d70d1eda" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1055859<br><strong>Year Built:</strong> 1963<br><strong>Clearance Height:</strong> 14.0 feet<br><strong>Underpass:</strong> GRAND CENTRAL PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 02/23/2015-<br>02/23/2015</div>`)[0];
+                popup_5c107f730d8e10cc5f5eefd1ecbd035a.setContent(html_f5f39a51878f071692fd6ec0d70d1eda);
+            
+        
+
+        marker_2fdcb4c87737098873dd42593f1449b6.bindPopup(popup_5c107f730d8e10cc5f5eefd1ecbd035a)
+        ;
+
+        
+    
+    
+            var marker_a5006f6ac41ab0b96db822486b746f7d = L.marker(
+                [40.752716, -73.852024],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_46abdb48299a34684a3d6389d9b745a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_a5006f6ac41ab0b96db822486b746f7d.setIcon(icon_46abdb48299a34684a3d6389d9b745a1);
+        
+    
+        var popup_1e52d647f6cb5dba3bc6023271e5d7a4 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_6ddca459709762f3e37fe24f78170b0b = $(`<div id="html_6ddca459709762f3e37fe24f78170b0b" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1055930<br><strong>Year Built:</strong> 1963<br><strong>Clearance Height:</strong> 13.9 feet<br><strong>Underpass:</strong> GRAND CENTRAL PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 9<br><strong>Date Range:</strong> 05/28/2014-<br>04/03/2024</div>`)[0];
+                popup_1e52d647f6cb5dba3bc6023271e5d7a4.setContent(html_6ddca459709762f3e37fe24f78170b0b);
+            
+        
+
+        marker_a5006f6ac41ab0b96db822486b746f7d.bindPopup(popup_1e52d647f6cb5dba3bc6023271e5d7a4)
+        ;
+
+        
+    
+    
+            var marker_5be7e1b726f9fa8f837dac12d9347374 = L.marker(
+                [40.725715, -73.837893],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_3863e783974f0114edfd9a055f47e921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_5be7e1b726f9fa8f837dac12d9347374.setIcon(icon_3863e783974f0114edfd9a055f47e921);
+        
+    
+        var popup_82b18c4469643366b1ed7ab3f7bade17 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_b94fc006621c37b7b6134471f61be92e = $(`<div id="html_b94fc006621c37b7b6134471f61be92e" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1056000<br><strong>Year Built:</strong> 1963<br><strong>Clearance Height:</strong> 11.0 feet<br><strong>Underpass:</strong> GRAND CENTRAL PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 07/13/2017-<br>07/13/2017</div>`)[0];
+                popup_82b18c4469643366b1ed7ab3f7bade17.setContent(html_b94fc006621c37b7b6134471f61be92e);
+            
+        
+
+        marker_5be7e1b726f9fa8f837dac12d9347374.bindPopup(popup_82b18c4469643366b1ed7ab3f7bade17)
+        ;
+
+        
+    
+    
+            var marker_5e4bf72dab9bb2e51b5b372ccfa286f5 = L.marker(
+                [40.716425, -73.827978],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_f8e0d02436c8fff1e62d71704c12c573 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5e4bf72dab9bb2e51b5b372ccfa286f5.setIcon(icon_f8e0d02436c8fff1e62d71704c12c573);
+        
+    
+        var popup_0f430ea777fdbcd36dcefbcaa9bae56e = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_5f1f84efe00a76cb126de2fa7a254fb8 = $(`<div id="html_5f1f84efe00a76cb126de2fa7a254fb8" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1065030<br><strong>Year Built:</strong> 2020<br><strong>Clearance Height:</strong> 17.5 feet<br><strong>Underpass:</strong> GRAND CENTRAL PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 06/08/2015-<br>06/08/2015</div>`)[0];
+                popup_0f430ea777fdbcd36dcefbcaa9bae56e.setContent(html_5f1f84efe00a76cb126de2fa7a254fb8);
+            
+        
+
+        marker_5e4bf72dab9bb2e51b5b372ccfa286f5.bindPopup(popup_0f430ea777fdbcd36dcefbcaa9bae56e)
+        ;
+
+        
+    
+    
+            var marker_7415549c6b82107671a2c133e0dd1630 = L.marker(
+                [40.78953, -73.822429],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_4eef118bbdddbc7599cf776ce0af9863 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_7415549c6b82107671a2c133e0dd1630.setIcon(icon_4eef118bbdddbc7599cf776ce0af9863);
+        
+    
+        var popup_1cf58529c18405f919a56cdff1789fba = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_e413548ae5da10c4f14360124015575b = $(`<div id="html_e413548ae5da10c4f14360124015575b" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1065210<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 13.5 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 4<br>South: 2<br><strong>Date Range:</strong> 01/28/2016-<br>02/18/2020</div>`)[0];
+                popup_1cf58529c18405f919a56cdff1789fba.setContent(html_e413548ae5da10c4f14360124015575b);
+            
+        
+
+        marker_7415549c6b82107671a2c133e0dd1630.bindPopup(popup_1cf58529c18405f919a56cdff1789fba)
+        ;
+
+        
+    
+    
+            var marker_50ff7bbae5d653b2c882a5d9992c4a01 = L.marker(
+                [40.703231, -73.96011],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_d476ee8e5748c29ebd2c96635e4df5ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_50ff7bbae5d653b2c882a5d9992c4a01.setIcon(icon_d476ee8e5748c29ebd2c96635e4df5ee);
+        
+    
+        var popup_9eb50fa15681dc91ad9b9b3e929861c7 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_5d0125a43dbaf2e8cf37907699bd3214 = $(`<div id="html_5d0125a43dbaf2e8cf37907699bd3214" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1065460<br><strong>Year Built:</strong> 1984<br><strong>Clearance Height:</strong> 14.4 feet<br><strong>Underpass:</strong> BROOKLYN QUEENS EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>East: 2<br><strong>Date Range:</strong> 12/21/2020-<br>10/06/2022</div>`)[0];
+                popup_9eb50fa15681dc91ad9b9b3e929861c7.setContent(html_5d0125a43dbaf2e8cf37907699bd3214);
+            
+        
+
+        marker_50ff7bbae5d653b2c882a5d9992c4a01.bindPopup(popup_9eb50fa15681dc91ad9b9b3e929861c7)
+        ;
+
+        
+    
+    
+            var marker_9b3b47ff99036dbb2da837747f7da49f = L.marker(
+                [40.710229, -73.956236],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_fa5034dfdc3371550e25c48f0663b0e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9b3b47ff99036dbb2da837747f7da49f.setIcon(icon_fa5034dfdc3371550e25c48f0663b0e3);
+        
+    
+        var popup_c4950a6ba0850bdbda549aef46aa79be = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_979233eb6c814101b42d9c06e7229f0e = $(`<div id="html_979233eb6c814101b42d9c06e7229f0e" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1065530<br><strong>Year Built:</strong> 1957<br><strong>Clearance Height:</strong> 14.7 feet<br><strong>Underpass:</strong> BROOKLYN QUEENS EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 08/13/2019-<br>08/13/2019</div>`)[0];
+                popup_c4950a6ba0850bdbda549aef46aa79be.setContent(html_979233eb6c814101b42d9c06e7229f0e);
+            
+        
+
+        marker_9b3b47ff99036dbb2da837747f7da49f.bindPopup(popup_c4950a6ba0850bdbda549aef46aa79be)
+        ;
+
+        
+    
+    
+            var marker_eef5a9158a97f4bafacc77f75f86266f = L.marker(
+                [40.731968, -73.919073],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_ec94dbf4f16380e443683618214bb824 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_eef5a9158a97f4bafacc77f75f86266f.setIcon(icon_ec94dbf4f16380e443683618214bb824);
+        
+    
+        var popup_cb771303a51bfb2630687c7435a8808b = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_5530b8a80c4ec952673bb9cf9bd1b03c = $(`<div id="html_5530b8a80c4ec952673bb9cf9bd1b03c" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1065900<br><strong>Year Built:</strong> 1955<br><strong>Clearance Height:</strong> 14.0 feet<br><strong>Underpass:</strong> 48th STREET<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 07/16/2014-<br>07/16/2014</div>`)[0];
+                popup_cb771303a51bfb2630687c7435a8808b.setContent(html_5530b8a80c4ec952673bb9cf9bd1b03c);
+            
+        
+
+        marker_eef5a9158a97f4bafacc77f75f86266f.bindPopup(popup_cb771303a51bfb2630687c7435a8808b)
+        ;
+
+        
+    
+    
+            var marker_ae312c32ddf89540fbfab2c519755b58 = L.marker(
+                [40.844747, -73.904892],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_a35086c98d4546e6157d189bec0343e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_ae312c32ddf89540fbfab2c519755b58.setIcon(icon_a35086c98d4546e6157d189bec0343e4);
+        
+    
+        var popup_a59dac02d21fef5730af3f2f37f8d12b = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_acedb0b5f4a4839b6e4d5cafc58e813c = $(`<div id="html_acedb0b5f4a4839b6e4d5cafc58e813c" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1066320<br><strong>Year Built:</strong> 1960<br><strong>Clearance Height:</strong> 14.1 feet<br><strong>Underpass:</strong> CROSS BRONX EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 05/27/2014-<br>05/27/2014</div>`)[0];
+                popup_a59dac02d21fef5730af3f2f37f8d12b.setContent(html_acedb0b5f4a4839b6e4d5cafc58e813c);
+            
+        
+
+        marker_ae312c32ddf89540fbfab2c519755b58.bindPopup(popup_a59dac02d21fef5730af3f2f37f8d12b)
+        ;
+
+        
+    
+    
+            var marker_bf68acd1248d7f1c9d6f8bc7587ccaaf = L.marker(
+                [40.844557, -73.902709],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_8e0a43665c39b2b08a08c98626635f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_bf68acd1248d7f1c9d6f8bc7587ccaaf.setIcon(icon_8e0a43665c39b2b08a08c98626635f57);
+        
+    
+        var popup_a6d7caab4f40e1ddb2a66ee10c2a14eb = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_24d7e3dfc41fd37a47152402e5f09594 = $(`<div id="html_24d7e3dfc41fd37a47152402e5f09594" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1066349<br><strong>Year Built:</strong> 1960<br><strong>Clearance Height:</strong> 14.3 feet<br><strong>Underpass:</strong> WEBSTER AVENUE<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 07/06/2016-<br>07/06/2016</div>`)[0];
+                popup_a6d7caab4f40e1ddb2a66ee10c2a14eb.setContent(html_24d7e3dfc41fd37a47152402e5f09594);
+            
+        
+
+        marker_bf68acd1248d7f1c9d6f8bc7587ccaaf.bindPopup(popup_a6d7caab4f40e1ddb2a66ee10c2a14eb)
+        ;
+
+        
+    
+    
+            var marker_876be3a8f2ec84d5f2515a4b145835b3 = L.marker(
+                [40.840544, -73.886064],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_09aa7289a499b89eacc37164769b4547 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_876be3a8f2ec84d5f2515a4b145835b3.setIcon(icon_09aa7289a499b89eacc37164769b4547);
+        
+    
+        var popup_b37c29f526efd60ad35f2f6f8f56cc77 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_ed300318b9930f0082890e0895fc8887 = $(`<div id="html_ed300318b9930f0082890e0895fc8887" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1066399<br><strong>Year Built:</strong> 1958<br><strong>Clearance Height:</strong> 14.1 feet<br><strong>Underpass:</strong> CROSS BRONX EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 03/08/2014-<br>03/08/2014</div>`)[0];
+                popup_b37c29f526efd60ad35f2f6f8f56cc77.setContent(html_ed300318b9930f0082890e0895fc8887);
+            
+        
+
+        marker_876be3a8f2ec84d5f2515a4b145835b3.bindPopup(popup_b37c29f526efd60ad35f2f6f8f56cc77)
+        ;
+
+        
+    
+    
+            var marker_9d8c4af5f228dfda3643ceb31bf9c78a = L.marker(
+                [40.839368, -73.883927],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_4acc8ccc57825c61d30cd2dcd951c8e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9d8c4af5f228dfda3643ceb31bf9c78a.setIcon(icon_4acc8ccc57825c61d30cd2dcd951c8e0);
+        
+    
+        var popup_d09931d6c052224ddd2505242f6ee463 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_187d19d5927b570df360d0ad8c28808b = $(`<div id="html_187d19d5927b570df360d0ad8c28808b" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1066407<br><strong>Year Built:</strong> 1958<br><strong>Clearance Height:</strong> 14.4 feet<br><strong>Underpass:</strong> CROSS BRONX EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br>South: 1<br><strong>Date Range:</strong> 03/06/2014-<br>07/16/2021</div>`)[0];
+                popup_d09931d6c052224ddd2505242f6ee463.setContent(html_187d19d5927b570df360d0ad8c28808b);
+            
+        
+
+        marker_9d8c4af5f228dfda3643ceb31bf9c78a.bindPopup(popup_d09931d6c052224ddd2505242f6ee463)
+        ;
+
+        
+    
+    
+            var marker_9646d18875dab7ae3cd55ca29bac07ae = L.marker(
+                [40.837538, -73.880532],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_6358c6540b503d0772b798c5d25ce889 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9646d18875dab7ae3cd55ca29bac07ae.setIcon(icon_6358c6540b503d0772b798c5d25ce889);
+        
+    
+        var popup_d843d91f02cf20186b7b1c2016d84470 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_b67f1cf0dd2d088cc89ebee9732ee3b5 = $(`<div id="html_b67f1cf0dd2d088cc89ebee9732ee3b5" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1066419<br><strong>Year Built:</strong> 1951<br><strong>Clearance Height:</strong> 14.5 feet<br><strong>Underpass:</strong> SHERIDAN EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 30 mph<br><strong>Direction(s):</strong> <br>North: 1<br><strong>Date Range:</strong> 10/14/2013-<br>10/14/2013</div>`)[0];
+                popup_d843d91f02cf20186b7b1c2016d84470.setContent(html_b67f1cf0dd2d088cc89ebee9732ee3b5);
+            
+        
+
+        marker_9646d18875dab7ae3cd55ca29bac07ae.bindPopup(popup_d843d91f02cf20186b7b1c2016d84470)
+        ;
+
+        
+    
+    
+            var marker_4cc0285ed656f00f65b33422fef60f72 = L.marker(
+                [40.876575, -73.904544],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_3689fd891ab48b603bcadf5d4e190821 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_4cc0285ed656f00f65b33422fef60f72.setIcon(icon_3689fd891ab48b603bcadf5d4e190821);
+        
+    
+        var popup_10ec12d882efe90ebd70a2655c46870a = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_4b4df6f826c764d861b26b6e77982ce1 = $(`<div id="html_4b4df6f826c764d861b26b6e77982ce1" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1066960<br><strong>Year Built:</strong> 1955<br><strong>Clearance Height:</strong> 14.4 feet<br><strong>Underpass:</strong> MAJOR DEEGAN EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br>North: 1<br><strong>Date Range:</strong> 12/17/2019-<br>03/29/2024</div>`)[0];
+                popup_10ec12d882efe90ebd70a2655c46870a.setContent(html_4b4df6f826c764d861b26b6e77982ce1);
+            
+        
+
+        marker_4cc0285ed656f00f65b33422fef60f72.bindPopup(popup_10ec12d882efe90ebd70a2655c46870a)
+        ;
+
+        
+    
+    
+            var marker_87ea9dd2441474730320e26fa7e2a425 = L.marker(
+                [40.884435, -73.898583],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_395738c40f694517e2988ac44c0cc9a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_87ea9dd2441474730320e26fa7e2a425.setIcon(icon_395738c40f694517e2988ac44c0cc9a6);
+        
+    
+        var popup_828ef056bec539cc9f8e8481851d8bda = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_c72ca7388190f64ae2f88be3500ce86f = $(`<div id="html_c72ca7388190f64ae2f88be3500ce86f" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1067000<br><strong>Year Built:</strong> 1955<br><strong>Clearance Height:</strong> 14.4 feet<br><strong>Underpass:</strong> MAJOR DEEGAN EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 03/27/2019-<br>03/27/2019</div>`)[0];
+                popup_828ef056bec539cc9f8e8481851d8bda.setContent(html_c72ca7388190f64ae2f88be3500ce86f);
+            
+        
+
+        marker_87ea9dd2441474730320e26fa7e2a425.bindPopup(popup_828ef056bec539cc9f8e8481851d8bda)
+        ;
+
+        
+    
+    
+            var marker_03e070e6898519c633e1e2c0fcc3d017 = L.marker(
+                [40.878502, -73.870077],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_7f7469f3d34e8edae8d2b72e67bb542b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_03e070e6898519c633e1e2c0fcc3d017.setIcon(icon_7f7469f3d34e8edae8d2b72e67bb542b);
+        
+    
+        var popup_e52cd3ab19de8fd238aea7edc05b75a1 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_2b3d69fe5a98a3efc2f3e46787871ee3 = $(`<div id="html_2b3d69fe5a98a3efc2f3e46787871ee3" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1067130<br><strong>Year Built:</strong> 1951<br><strong>Clearance Height:</strong> 11.5 feet<br><strong>Underpass:</strong> BRONX RIVER PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 12/01/2021-<br>12/01/2021</div>`)[0];
+                popup_e52cd3ab19de8fd238aea7edc05b75a1.setContent(html_2b3d69fe5a98a3efc2f3e46787871ee3);
+            
+        
+
+        marker_03e070e6898519c633e1e2c0fcc3d017.bindPopup(popup_e52cd3ab19de8fd238aea7edc05b75a1)
+        ;
+
+        
+    
+    
+            var marker_45ab5519590729b4794d0c515a1a3078 = L.marker(
+                [40.624972, -74.146318],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_23e86224b2d71b2f7bdd9f35ed2fcc08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_45ab5519590729b4794d0c515a1a3078.setIcon(icon_23e86224b2d71b2f7bdd9f35ed2fcc08);
+        
+    
+        var popup_8c3299f4575883c97ff77e70252b8516 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_c60e6c0cbdcdd6fe495aec1835187fdb = $(`<div id="html_c60e6c0cbdcdd6fe495aec1835187fdb" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1067631<br><strong>Year Built:</strong> 1964<br><strong>Clearance Height:</strong> 14.0 feet<br><strong>Underpass:</strong> FOREST AVENUE<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 12/31/2013-<br>12/31/2013</div>`)[0];
+                popup_8c3299f4575883c97ff77e70252b8516.setContent(html_c60e6c0cbdcdd6fe495aec1835187fdb);
+            
+        
+
+        marker_45ab5519590729b4794d0c515a1a3078.bindPopup(popup_8c3299f4575883c97ff77e70252b8516)
+        ;
+
+        
+    
+    
+            var marker_40c3bfe3ae778149e863b28be008baec = L.marker(
+                [40.607581, -74.140881],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_59a473e16656d668f9cb242f0625f885 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_40c3bfe3ae778149e863b28be008baec.setIcon(icon_59a473e16656d668f9cb242f0625f885);
+        
+    
+        var popup_eb0a4357110369d9ef08a4a1f836943b = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_dd5e4191d65b01fe7e62468d82c873c5 = $(`<div id="html_dd5e4191d65b01fe7e62468d82c873c5" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1067720<br><strong>Year Built:</strong> 1965<br><strong>Clearance Height:</strong> 14.7 feet<br><strong>Underpass:</strong> STATEN ISLAND EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 03/30/2023-<br>03/30/2023</div>`)[0];
+                popup_eb0a4357110369d9ef08a4a1f836943b.setContent(html_dd5e4191d65b01fe7e62468d82c873c5);
+            
+        
+
+        marker_40c3bfe3ae778149e863b28be008baec.bindPopup(popup_eb0a4357110369d9ef08a4a1f836943b)
+        ;
+
+        
+    
+    
+            var marker_f54b936a77ca71155538455817570ff4 = L.marker(
+                [40.608284, -74.132052],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_f06b7f38e0da83bd25ec084d55d3967a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_f54b936a77ca71155538455817570ff4.setIcon(icon_f06b7f38e0da83bd25ec084d55d3967a);
+        
+    
+        var popup_31f0fee6cdaddfac61c109b9bed904b3 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_0e40cfe9f56b7d43a3945a78044a52ba = $(`<div id="html_0e40cfe9f56b7d43a3945a78044a52ba" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1067730<br><strong>Year Built:</strong> 1965<br><strong>Clearance Height:</strong> 15.0 feet<br><strong>Underpass:</strong> STATEN ISLAND EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 10/29/2014-<br>10/29/2014</div>`)[0];
+                popup_31f0fee6cdaddfac61c109b9bed904b3.setContent(html_0e40cfe9f56b7d43a3945a78044a52ba);
+            
+        
+
+        marker_f54b936a77ca71155538455817570ff4.bindPopup(popup_31f0fee6cdaddfac61c109b9bed904b3)
+        ;
+
+        
+    
+    
+            var marker_07d57d1af204d1ad95c9911a7618ff67 = L.marker(
+                [40.560651, -74.199497],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_4766227c5ceba2e4d42dfe11c9dcab46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_07d57d1af204d1ad95c9911a7618ff67.setIcon(icon_4766227c5ceba2e4d42dfe11c9dcab46);
+        
+    
+        var popup_6038569987d6863e8577ad1a19c80413 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_cd2cb472f174cf9b6112d6703c70b538 = $(`<div id="html_cd2cb472f174cf9b6112d6703c70b538" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1069720<br><strong>Year Built:</strong> 1977<br><strong>Clearance Height:</strong> 14.1 feet<br><strong>Underpass:</strong> WEST SHORE EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 2<br><strong>Date Range:</strong> 05/03/2019-<br>12/21/2020</div>`)[0];
+                popup_6038569987d6863e8577ad1a19c80413.setContent(html_cd2cb472f174cf9b6112d6703c70b538);
+            
+        
+
+        marker_07d57d1af204d1ad95c9911a7618ff67.bindPopup(popup_6038569987d6863e8577ad1a19c80413)
+        ;
+
+        
+    
+    
+            var marker_02ba48d80a25b55c752178b58a9086c5 = L.marker(
+                [40.826687, -73.872707],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_77dbd97ed5aa2d4f77bc2b9f35f266a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_02ba48d80a25b55c752178b58a9086c5.setIcon(icon_77dbd97ed5aa2d4f77bc2b9f35f266a3);
+        
+    
+        var popup_d5f388e9e0a3abc5d364bde273b9e8f1 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_b75a006164f37f63e965bf80ca88a1b6 = $(`<div id="html_b75a006164f37f63e965bf80ca88a1b6" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1075740<br><strong>Year Built:</strong> 1948<br><strong>Clearance Height:</strong> 13.4 feet<br><strong>Underpass:</strong> BRONX RIVER PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 1<br><strong>Date Range:</strong> 04/12/2022-<br>04/12/2022</div>`)[0];
+                popup_d5f388e9e0a3abc5d364bde273b9e8f1.setContent(html_b75a006164f37f63e965bf80ca88a1b6);
+            
+        
+
+        marker_02ba48d80a25b55c752178b58a9086c5.bindPopup(popup_d5f388e9e0a3abc5d364bde273b9e8f1)
+        ;
+
+        
+    
+    
+            var marker_20c455a384f5923bafb72b2d56fb9945 = L.marker(
+                [40.873041, -73.818738],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_a0017799078928395560a5275aeaf154 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_20c455a384f5923bafb72b2d56fb9945.setIcon(icon_a0017799078928395560a5275aeaf154);
+        
+    
+        var popup_1015dc1a24723c68ea58167d46774f1f = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_999f24c9d6fc103a5a5e9dda376e1d9b = $(`<div id="html_999f24c9d6fc103a5a5e9dda376e1d9b" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1075860<br><strong>Year Built:</strong> 1940<br><strong>Clearance Height:</strong> 11.7 feet<br><strong>Underpass:</strong> HUTCHINSON RIVER PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 5<br><strong>Date Range:</strong> 07/27/2013-<br>01/01/2016</div>`)[0];
+                popup_1015dc1a24723c68ea58167d46774f1f.setContent(html_999f24c9d6fc103a5a5e9dda376e1d9b);
+            
+        
+
+        marker_20c455a384f5923bafb72b2d56fb9945.bindPopup(popup_1015dc1a24723c68ea58167d46774f1f)
+        ;
+
+        
+    
+    
+            var marker_61dfc5da482e6d48cac21d3f5616ff73 = L.marker(
+                [40.537116, -74.224531],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_f74a068d66a9be77ad476eaa2ab26936 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_61dfc5da482e6d48cac21d3f5616ff73.setIcon(icon_f74a068d66a9be77ad476eaa2ab26936);
+        
+    
+        var popup_c8633cccead84c295e4ae29111d67d63 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_a960575d78e79cb19e25e970e50b6f95 = $(`<div id="html_a960575d78e79cb19e25e970e50b6f95" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1076020<br><strong>Year Built:</strong> 1972<br><strong>Clearance Height:</strong> 14.0 feet<br><strong>Underpass:</strong> WEST SHORE EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 05/22/2019-<br>05/22/2019</div>`)[0];
+                popup_c8633cccead84c295e4ae29111d67d63.setContent(html_a960575d78e79cb19e25e970e50b6f95);
+            
+        
+
+        marker_61dfc5da482e6d48cac21d3f5616ff73.bindPopup(popup_c8633cccead84c295e4ae29111d67d63)
+        ;
+
+        
+    
+    
+            var marker_fcd4076d78569d86fdf083769ee8aad1 = L.marker(
+                [40.743484, -73.732009],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_443e8324b4dac73173ccba8d8b3f22bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_fcd4076d78569d86fdf083769ee8aad1.setIcon(icon_443e8324b4dac73173ccba8d8b3f22bf);
+        
+    
+        var popup_f77eb3c545d76270cad6556ed857aa55 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_acc77a17c4e36e84b495330e0854c6ae = $(`<div id="html_acc77a17c4e36e84b495330e0854c6ae" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1076600<br><strong>Year Built:</strong> 1972<br><strong>Clearance Height:</strong> 11.5 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 2<br>East: 1<br><strong>Date Range:</strong> 09/15/2018-<br>05/13/2020</div>`)[0];
+                popup_f77eb3c545d76270cad6556ed857aa55.setContent(html_acc77a17c4e36e84b495330e0854c6ae);
+            
+        
+
+        marker_fcd4076d78569d86fdf083769ee8aad1.bindPopup(popup_f77eb3c545d76270cad6556ed857aa55)
+        ;
+
+        
+    
+    
+            var marker_20f68acaa477eed9550e8f698928a408 = L.marker(
+                [40.744339, -73.733259],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_76489355585f4bb923952c468165eac1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_20f68acaa477eed9550e8f698928a408.setIcon(icon_76489355585f4bb923952c468165eac1);
+        
+    
+        var popup_850d321d88e725cb1218c06333a145c9 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_466102281a7bf873e096fd8189ef481d = $(`<div id="html_466102281a7bf873e096fd8189ef481d" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1076610<br><strong>Year Built:</strong> 1972<br><strong>Clearance Height:</strong> 10.9 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 06/17/2022-<br>06/17/2022</div>`)[0];
+                popup_850d321d88e725cb1218c06333a145c9.setContent(html_466102281a7bf873e096fd8189ef481d);
+            
+        
+
+        marker_20f68acaa477eed9550e8f698928a408.bindPopup(popup_850d321d88e725cb1218c06333a145c9)
+        ;
+
+        
+    
+    
+            var marker_49954733e1699c3c1f4fc4b88c505b10 = L.marker(
+                [40.743836, -73.732432],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_ee14b8f0d5127ef1b5a7a65c63394b33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_49954733e1699c3c1f4fc4b88c505b10.setIcon(icon_ee14b8f0d5127ef1b5a7a65c63394b33);
+        
+    
+        var popup_396cb35bd764ca164344b85c2b46dd2a = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_93084b4da5818d218e5e77d43cf32d80 = $(`<div id="html_93084b4da5818d218e5e77d43cf32d80" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1076620<br><strong>Year Built:</strong> 1972<br><strong>Clearance Height:</strong> 11.8 feet<br><strong>Underpass:</strong> GRAND CENTRAL PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 01/22/2015-<br>01/22/2015</div>`)[0];
+                popup_396cb35bd764ca164344b85c2b46dd2a.setContent(html_93084b4da5818d218e5e77d43cf32d80);
+            
+        
+
+        marker_49954733e1699c3c1f4fc4b88c505b10.bindPopup(popup_396cb35bd764ca164344b85c2b46dd2a)
+        ;
+
+        
+    
+    
+            var marker_64ff67c51b29e10d305db363ea88abf9 = L.marker(
+                [40.66629014285714, -73.78927657142857],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_383beb85620e544c803f4e74329ca654 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_64ff67c51b29e10d305db363ea88abf9.setIcon(icon_383beb85620e544c803f4e74329ca654);
+        
+    
+        var popup_65a9b6151fdb724d4cd95a13da1e11a3 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_c8cb2b1cf1fa8775f2656e34a35e940f = $(`<div id="html_c8cb2b1cf1fa8775f2656e34a35e940f" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1076660<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 12.1 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 7<br><strong>Date Range:</strong> 05/08/2015-<br>05/12/2022</div>`)[0];
+                popup_65a9b6151fdb724d4cd95a13da1e11a3.setContent(html_c8cb2b1cf1fa8775f2656e34a35e940f);
+            
+        
+
+        marker_64ff67c51b29e10d305db363ea88abf9.bindPopup(popup_65a9b6151fdb724d4cd95a13da1e11a3)
+        ;
+
+        
+    
+    
+            var marker_7a714936434f5b30b99bf049b7b767d3 = L.marker(
+                [40.751621, -73.74304],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_cf95896690b014db7a62ead8c4ceca38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7a714936434f5b30b99bf049b7b767d3.setIcon(icon_cf95896690b014db7a62ead8c4ceca38);
+        
+    
+        var popup_2fa3e852ac130c364768faf1bedc2296 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_5012699b2d39e1f25efe0d682a6d2d7d = $(`<div id="html_5012699b2d39e1f25efe0d682a6d2d7d" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 1077860<br><strong>Year Built:</strong> 2003<br><strong>Clearance Height:</strong> 18.1 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 03/26/2021-<br>03/26/2021</div>`)[0];
+                popup_2fa3e852ac130c364768faf1bedc2296.setContent(html_5012699b2d39e1f25efe0d682a6d2d7d);
+            
+        
+
+        marker_7a714936434f5b30b99bf049b7b767d3.bindPopup(popup_2fa3e852ac130c364768faf1bedc2296)
+        ;
+
+        
+    
+    
+            var marker_042a35f61889a4c39fc576a50260cb0f = L.marker(
+                [40.84070625, -73.8383905],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_3eb2cc3645d07ee14ffcd89d6a824a12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_042a35f61889a4c39fc576a50260cb0f.setIcon(icon_3eb2cc3645d07ee14ffcd89d6a824a12);
+        
+    
+        var popup_526ded5648d4f37d6fda9c414d8412d4 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_fef419b4970db0854e985ab642f4ff73 = $(`<div id="html_fef419b4970db0854e985ab642f4ff73" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2075820<br><strong>Year Built:</strong> 1940<br><strong>Clearance Height:</strong> 12.0 feet<br><strong>Underpass:</strong> HUTCHINSON RIVER PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 18<br>North: 2<br><strong>Date Range:</strong> 03/13/2013-<br>11/23/2022</div>`)[0];
+                popup_526ded5648d4f37d6fda9c414d8412d4.setContent(html_fef419b4970db0854e985ab642f4ff73);
+            
+        
+
+        marker_042a35f61889a4c39fc576a50260cb0f.bindPopup(popup_526ded5648d4f37d6fda9c414d8412d4)
+        ;
+
+        
+    
+    
+            var marker_2046cfada3eef34e6c65be0a93046358 = L.marker(
+                [40.84295828037383, -73.83774508411214],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_6680eecffebeed74ecd34c4146704c67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_2046cfada3eef34e6c65be0a93046358.setIcon(icon_6680eecffebeed74ecd34c4146704c67);
+        
+    
+        var popup_3d16141154446df9b6f47bd1b2f864a7 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_ec34cc42107ae78b146dbd7490d6d321 = $(`<div id="html_ec34cc42107ae78b146dbd7490d6d321" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2075837<br><strong>Year Built:</strong> 1940<br><strong>Clearance Height:</strong> 11.2 feet<br><strong>Underpass:</strong> HUTCHINSON RIVER PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 73<br>North: 34<br><strong>Date Range:</strong> 01/07/2013-<br>05/13/2024</div>`)[0];
+                popup_3d16141154446df9b6f47bd1b2f864a7.setContent(html_ec34cc42107ae78b146dbd7490d6d321);
+            
+        
+
+        marker_2046cfada3eef34e6c65be0a93046358.bindPopup(popup_3d16141154446df9b6f47bd1b2f864a7)
+        ;
+
+        
+    
+    
+            var marker_bcff98f5a6ecf5b3d3ed4683e39353aa = L.marker(
+                [40.828212, -73.836843],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_1e4774b9b52bf03900c549e4e9e9d537 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_bcff98f5a6ecf5b3d3ed4683e39353aa.setIcon(icon_1e4774b9b52bf03900c549e4e9e9d537);
+        
+    
+        var popup_fc3cd9a448c2ad5afd5f74207170620d = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_0565b3b72815ee68ebda574a74b33afa = $(`<div id="html_0565b3b72815ee68ebda574a74b33afa" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2076109<br><strong>Year Built:</strong> 1930<br><strong>Clearance Height:</strong> 14.0 feet<br><strong>Underpass:</strong> HUTCHINSON RIVER PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 2<br>North: 1<br><strong>Date Range:</strong> 04/10/2017-<br>11/25/2017</div>`)[0];
+                popup_fc3cd9a448c2ad5afd5f74207170620d.setContent(html_0565b3b72815ee68ebda574a74b33afa);
+            
+        
+
+        marker_bcff98f5a6ecf5b3d3ed4683e39353aa.bindPopup(popup_fc3cd9a448c2ad5afd5f74207170620d)
+        ;
+
+        
+    
+    
+            var marker_6aa173d914d3e3ea5af7b59f2d3de8aa = L.marker(
+                [40.884539, -73.914667],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_05211879102e4f6e25b5baa9d4cd8f59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_6aa173d914d3e3ea5af7b59f2d3de8aa.setIcon(icon_05211879102e4f6e25b5baa9d4cd8f59);
+        
+    
+        var popup_c28377b4b006ef8c83761e8c9182817c = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_cce2b5b00fb38a20e0fe8e61260d0acf = $(`<div id="html_cce2b5b00fb38a20e0fe8e61260d0acf" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2229450<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 11.5 feet<br><strong>Underpass:</strong> HENRY HUDSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 4<br>South: 1<br><strong>Date Range:</strong> 03/17/2019-<br>08/16/2022</div>`)[0];
+                popup_c28377b4b006ef8c83761e8c9182817c.setContent(html_cce2b5b00fb38a20e0fe8e61260d0acf);
+            
+        
+
+        marker_6aa173d914d3e3ea5af7b59f2d3de8aa.bindPopup(popup_c28377b4b006ef8c83761e8c9182817c)
+        ;
+
+        
+    
+    
+            var marker_a0eeca56c8716561878166fb5144d3af = L.marker(
+                [40.889318483870966, -73.90884996774193],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_723d0cc30d66aab9f6ce61b61f716068 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_a0eeca56c8716561878166fb5144d3af.setIcon(icon_723d0cc30d66aab9f6ce61b61f716068);
+        
+    
+        var popup_d27013153cba84e32a7d89c9c36b32bc = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_296fc9fdbbf8e62841de1cf58bfafe6e = $(`<div id="html_296fc9fdbbf8e62841de1cf58bfafe6e" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2229470<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 10.5 feet<br><strong>Underpass:</strong> HENRY HUDSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 29<br>South: 2<br><strong>Date Range:</strong> 04/18/2017-<br>02/20/2024</div>`)[0];
+                popup_d27013153cba84e32a7d89c9c36b32bc.setContent(html_296fc9fdbbf8e62841de1cf58bfafe6e);
+            
+        
+
+        marker_a0eeca56c8716561878166fb5144d3af.bindPopup(popup_d27013153cba84e32a7d89c9c36b32bc)
+        ;
+
+        
+    
+    
+            var marker_5754096dd3804634637ac760040543f2 = L.marker(
+                [40.89355783333333, -73.90816466666666],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_31bcdfadeecbb051b5a3c50213fcc48a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_5754096dd3804634637ac760040543f2.setIcon(icon_31bcdfadeecbb051b5a3c50213fcc48a);
+        
+    
+        var popup_17b48520c2120d784b355a30c78fd016 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_f38da339e80fea69bff14ad95284b2f4 = $(`<div id="html_f38da339e80fea69bff14ad95284b2f4" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2229490<br><strong>Year Built:</strong> 1938<br><strong>Clearance Height:</strong> 11.4 feet<br><strong>Underpass:</strong> HENRY HUDSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 4<br>South: 2<br><strong>Date Range:</strong> 05/10/2016-<br>06/27/2023</div>`)[0];
+                popup_17b48520c2120d784b355a30c78fd016.setContent(html_f38da339e80fea69bff14ad95284b2f4);
+            
+        
+
+        marker_5754096dd3804634637ac760040543f2.bindPopup(popup_17b48520c2120d784b355a30c78fd016)
+        ;
+
+        
+    
+    
+            var marker_3d7046d78d3ea67e78920d6ae619d262 = L.marker(
+                [40.8993294, -73.90718288],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_a5768a86428498044f68ae9e3789a7d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_3d7046d78d3ea67e78920d6ae619d262.setIcon(icon_a5768a86428498044f68ae9e3789a7d4);
+        
+    
+        var popup_11bb61f4286b4530c705f3b17ab4fad1 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_c35c01af9074910d2e853e01d0f26663 = $(`<div id="html_c35c01af9074910d2e853e01d0f26663" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2229500<br><strong>Year Built:</strong> 1938<br><strong>Clearance Height:</strong> 11.6 feet<br><strong>Underpass:</strong> HENRY HUDSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 18<br>North: 7<br><strong>Date Range:</strong> 06/04/2013-<br>05/09/2024</div>`)[0];
+                popup_11bb61f4286b4530c705f3b17ab4fad1.setContent(html_c35c01af9074910d2e853e01d0f26663);
+            
+        
+
+        marker_3d7046d78d3ea67e78920d6ae619d262.bindPopup(popup_11bb61f4286b4530c705f3b17ab4fad1)
+        ;
+
+        
+    
+    
+            var marker_b91cbbb0041e434b4edb20f1e29c9644 = L.marker(
+                [40.679816, -73.896921],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_be426a1fb32b60dfee31a2635c4e8911 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_b91cbbb0041e434b4edb20f1e29c9644.setIcon(icon_be426a1fb32b60dfee31a2635c4e8911);
+        
+    
+        var popup_274543330fa6fc62341155902c5ed314 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_9d5ba61ad8870ea407877be9de835e41 = $(`<div id="html_9d5ba61ad8870ea407877be9de835e41" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230000<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 10.4 feet<br><strong>Underpass:</strong> JACKIE ROBINSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 3<br><strong>Date Range:</strong> 02/08/2017-<br>05/21/2019</div>`)[0];
+                popup_274543330fa6fc62341155902c5ed314.setContent(html_9d5ba61ad8870ea407877be9de835e41);
+            
+        
+
+        marker_b91cbbb0041e434b4edb20f1e29c9644.bindPopup(popup_274543330fa6fc62341155902c5ed314)
+        ;
+
+        
+    
+    
+            var marker_a7c91f26f16962bb7cf56a6babab8f50 = L.marker(
+                [40.680443, -73.896717],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_1cff129eaad598261d944f6bc9fc8f7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_a7c91f26f16962bb7cf56a6babab8f50.setIcon(icon_1cff129eaad598261d944f6bc9fc8f7b);
+        
+    
+        var popup_fa4cb71904bc6b707f7b7de9d9ab86e6 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_2b62a203637b3a70f3fe0e45e73a788d = $(`<div id="html_2b62a203637b3a70f3fe0e45e73a788d" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230020<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 12.2 feet<br><strong>Underpass:</strong> JACKIE ROBINSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 2<br><strong>Date Range:</strong> 01/23/2018-<br>04/15/2019</div>`)[0];
+                popup_fa4cb71904bc6b707f7b7de9d9ab86e6.setContent(html_2b62a203637b3a70f3fe0e45e73a788d);
+            
+        
+
+        marker_a7c91f26f16962bb7cf56a6babab8f50.bindPopup(popup_fa4cb71904bc6b707f7b7de9d9ab86e6)
+        ;
+
+        
+    
+    
+            var marker_beb8b5e60e1e500ad97627f4197d7671 = L.marker(
+                [40.692131, -73.882517],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_c79a3d94d21c78b52183719cf918f6dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_beb8b5e60e1e500ad97627f4197d7671.setIcon(icon_c79a3d94d21c78b52183719cf918f6dc);
+        
+    
+        var popup_2535eef856501de01a75009a3ca3a852 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_b715f0b5fa10cf071dd1011ce5525223 = $(`<div id="html_b715f0b5fa10cf071dd1011ce5525223" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230040<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 10.3 feet<br><strong>Underpass:</strong> JACKIE ROBINSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>East: 5<br>West: 1<br><strong>Date Range:</strong> 06/13/2013-<br>11/15/2021</div>`)[0];
+                popup_2535eef856501de01a75009a3ca3a852.setContent(html_b715f0b5fa10cf071dd1011ce5525223);
+            
+        
+
+        marker_beb8b5e60e1e500ad97627f4197d7671.bindPopup(popup_2535eef856501de01a75009a3ca3a852)
+        ;
+
+        
+    
+    
+            var marker_d86f892e2b9fc4b4d47d7f9372f3576a = L.marker(
+                [40.69976, -73.86865],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_ddde5506a46b19289ad8219085008fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_d86f892e2b9fc4b4d47d7f9372f3576a.setIcon(icon_ddde5506a46b19289ad8219085008fbc);
+        
+    
+        var popup_30cd11829e3a7653ac02339288d6d9cd = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_01230143a64c58ca8e0ae2ad3f5aeec6 = $(`<div id="html_01230143a64c58ca8e0ae2ad3f5aeec6" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230109<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 11.6 feet<br><strong>Underpass:</strong> FOREST PARK DRIVE<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>West: 1<br>East: 1<br><strong>Date Range:</strong> 07/20/2016-<br>07/27/2017</div>`)[0];
+                popup_30cd11829e3a7653ac02339288d6d9cd.setContent(html_01230143a64c58ca8e0ae2ad3f5aeec6);
+            
+        
+
+        marker_d86f892e2b9fc4b4d47d7f9372f3576a.bindPopup(popup_30cd11829e3a7653ac02339288d6d9cd)
+        ;
+
+        
+    
+    
+            var marker_fd40bac3028dcc6e8ea9afe343828d07 = L.marker(
+                [40.7029144375, -73.85807043749999],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_838addf6f83788f28fb08d0460a08b7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_fd40bac3028dcc6e8ea9afe343828d07.setIcon(icon_838addf6f83788f28fb08d0460a08b7e);
+        
+    
+        var popup_d5e83a9e993cadc20a6bd254855c8c5d = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_7c8ffb076dc5c831497e51a6f4a00113 = $(`<div id="html_7c8ffb076dc5c831497e51a6f4a00113" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230120<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 10.4 feet<br><strong>Underpass:</strong> JACKIE ROBINSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>East: 9<br>West: 7<br><strong>Date Range:</strong> 07/19/2013-<br>05/29/2024</div>`)[0];
+                popup_d5e83a9e993cadc20a6bd254855c8c5d.setContent(html_7c8ffb076dc5c831497e51a6f4a00113);
+            
+        
+
+        marker_fd40bac3028dcc6e8ea9afe343828d07.bindPopup(popup_d5e83a9e993cadc20a6bd254855c8c5d)
+        ;
+
+        
+    
+    
+            var marker_0869253e00076ec3276dd089fd45fffe = L.marker(
+                [40.70898583333334, -73.8416085],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_b3f57820a60f1a9bc2f604a02aeb703b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_0869253e00076ec3276dd089fd45fffe.setIcon(icon_b3f57820a60f1a9bc2f604a02aeb703b);
+        
+    
+        var popup_da4dea760a36b4108e1665cc9ad83a84 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_ad6d2428da0e3284e899361839555fa1 = $(`<div id="html_ad6d2428da0e3284e899361839555fa1" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230179<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 13.8 feet<br><strong>Underpass:</strong> METROPOLITAN AVENUE<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>West: 10<br>East: 2<br><strong>Date Range:</strong> 06/23/2014-<br>01/09/2023</div>`)[0];
+                popup_da4dea760a36b4108e1665cc9ad83a84.setContent(html_ad6d2428da0e3284e899361839555fa1);
+            
+        
+
+        marker_0869253e00076ec3276dd089fd45fffe.bindPopup(popup_da4dea760a36b4108e1665cc9ad83a84)
+        ;
+
+        
+    
+    
+            var marker_86e44657ca9e02ae07b7e7b90f178054 = L.marker(
+                [40.710683, -73.83738],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_6eefa3d8dc2fab0d7c38ecb1286a0e31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_86e44657ca9e02ae07b7e7b90f178054.setIcon(icon_6eefa3d8dc2fab0d7c38ecb1286a0e31);
+        
+    
+        var popup_1a7f4c84172144ceeb1fb54b1cfd444b = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_b460c5747e8307ddd8c3821774c54ae7 = $(`<div id="html_b460c5747e8307ddd8c3821774c54ae7" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230180<br><strong>Year Built:</strong> 1987<br><strong>Clearance Height:</strong> 14.6 feet<br><strong>Underpass:</strong> JACKIE ROBINSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>West: 1<br>East: 1<br><strong>Date Range:</strong> 07/14/2014-<br>07/19/2021</div>`)[0];
+                popup_1a7f4c84172144ceeb1fb54b1cfd444b.setContent(html_b460c5747e8307ddd8c3821774c54ae7);
+            
+        
+
+        marker_86e44657ca9e02ae07b7e7b90f178054.bindPopup(popup_1a7f4c84172144ceeb1fb54b1cfd444b)
+        ;
+
+        
+    
+    
+            var marker_17b41560ab9bcbe55837de7f90f922f1 = L.marker(
+                [40.71177282608696, -73.836038],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_91ec97eee867f04a42a00c7421d88c34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_17b41560ab9bcbe55837de7f90f922f1.setIcon(icon_91ec97eee867f04a42a00c7421d88c34);
+        
+    
+        var popup_8e165e98456e9cb0cc4aec6423ab5bde = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_5aa3e064a732faa35597eb5bba711028 = $(`<div id="html_5aa3e064a732faa35597eb5bba711028" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230190<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 10.1 feet<br><strong>Underpass:</strong> JACKIE ROBINSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>West: 22<br>East: 1<br><strong>Date Range:</strong> 06/02/2013-<br>05/31/2024</div>`)[0];
+                popup_8e165e98456e9cb0cc4aec6423ab5bde.setContent(html_5aa3e064a732faa35597eb5bba711028);
+            
+        
+
+        marker_17b41560ab9bcbe55837de7f90f922f1.bindPopup(popup_8e165e98456e9cb0cc4aec6423ab5bde)
+        ;
+
+        
+    
+    
+            var marker_9a17597f4f7c01821ec9b949fbfde754 = L.marker(
+                [40.714381, -73.830989],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_4c44a6b337493caf818aacf69d043473 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_9a17597f4f7c01821ec9b949fbfde754.setIcon(icon_4c44a6b337493caf818aacf69d043473);
+        
+    
+        var popup_cb7e95e2f50ca4387e3359cf12b5c52b = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_ab5551245f8c94c7a7a06010f36ef7bc = $(`<div id="html_ab5551245f8c94c7a7a06010f36ef7bc" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230209<br><strong>Year Built:</strong> 1937<br><strong>Clearance Height:</strong> 13.6 feet<br><strong>Underpass:</strong> JACKIE ROBINSON PARKWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>West: 6<br><strong>Date Range:</strong> 07/14/2014-<br>12/14/2021</div>`)[0];
+                popup_cb7e95e2f50ca4387e3359cf12b5c52b.setContent(html_ab5551245f8c94c7a7a06010f36ef7bc);
+            
+        
+
+        marker_9a17597f4f7c01821ec9b949fbfde754.bindPopup(popup_cb7e95e2f50ca4387e3359cf12b5c52b)
+        ;
+
+        
+    
+    
+            var marker_61513de3287bcee2f49b65e074d3bca1 = L.marker(
+                [40.740803, -73.898972],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_da4dd029878b68d3f58693a4653b0753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_61513de3287bcee2f49b65e074d3bca1.setIcon(icon_da4dd029878b68d3f58693a4653b0753);
+        
+    
+        var popup_af5b14d6e4cef803bfb3edb64e75a7ad = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_f231a42dfe3c27b235b58f51aa15a19a = $(`<div id="html_f231a42dfe3c27b235b58f51aa15a19a" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230530<br><strong>Year Built:</strong> 1957<br><strong>Clearance Height:</strong> 14.1 feet<br><strong>Underpass:</strong> BROOKLYN QUEENS EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 06/21/2018-<br>06/21/2018</div>`)[0];
+                popup_af5b14d6e4cef803bfb3edb64e75a7ad.setContent(html_f231a42dfe3c27b235b58f51aa15a19a);
+            
+        
+
+        marker_61513de3287bcee2f49b65e074d3bca1.bindPopup(popup_af5b14d6e4cef803bfb3edb64e75a7ad)
+        ;
+
+        
+    
+    
+            var marker_a135bdb1eb34c131455eea4cb7f70dbb = L.marker(
+                [40.746442, -73.894767],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_a74ac81cd97056c6074c5b3bffc5fa85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a135bdb1eb34c131455eea4cb7f70dbb.setIcon(icon_a74ac81cd97056c6074c5b3bffc5fa85);
+        
+    
+        var popup_32be8dce7b4734b038ba415f2513f998 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_a28fda57a98b5633eef6ad62c423ec91 = $(`<div id="html_a28fda57a98b5633eef6ad62c423ec91" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2230587<br><strong>Year Built:</strong> 2007<br><strong>Clearance Height:</strong> 15.3 feet<br><strong>Underpass:</strong> BROOKLYN QUEENS EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 45 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 12/01/2014-<br>12/01/2014</div>`)[0];
+                popup_32be8dce7b4734b038ba415f2513f998.setContent(html_a28fda57a98b5633eef6ad62c423ec91);
+            
+        
+
+        marker_a135bdb1eb34c131455eea4cb7f70dbb.bindPopup(popup_32be8dce7b4734b038ba415f2513f998)
+        ;
+
+        
+    
+    
+            var marker_41822e1de46dc9b0144de56c29f00636 = L.marker(
+                [40.610632, -74.035798],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_5cba113dd9bd971eca3062a59b1a67a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_41822e1de46dc9b0144de56c29f00636.setIcon(icon_5cba113dd9bd971eca3062a59b1a67a8);
+        
+    
+        var popup_eabdb4d6ef33430bc6583b65ee216a5b = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_dde1f1bfdeaead171aff17bd36ac42da = $(`<div id="html_dde1f1bfdeaead171aff17bd36ac42da" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231270<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 11.3 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 3<br><strong>Date Range:</strong> 02/19/2015-<br>01/19/2023</div>`)[0];
+                popup_eabdb4d6ef33430bc6583b65ee216a5b.setContent(html_dde1f1bfdeaead171aff17bd36ac42da);
+            
+        
+
+        marker_41822e1de46dc9b0144de56c29f00636.bindPopup(popup_eabdb4d6ef33430bc6583b65ee216a5b)
+        ;
+
+        
+    
+    
+            var marker_02c6f770c43ec6a832b3a3482318e36b = L.marker(
+                [40.60183953448276, -74.01240589655173],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_4c0765bd4d223163cd4b4df64f1b5ced = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_02c6f770c43ec6a832b3a3482318e36b.setIcon(icon_4c0765bd4d223163cd4b4df64f1b5ced);
+        
+    
+        var popup_81cb44c2d126b9e99f1a6df1d84255bb = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_2dd2a083a2b92ac35a12fd8b4bcb3a0b = $(`<div id="html_2dd2a083a2b92ac35a12fd8b4bcb3a0b" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231290<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 13.3 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 51<br>West: 7<br><strong>Date Range:</strong> 03/06/2013-<br>11/15/2022</div>`)[0];
+                popup_81cb44c2d126b9e99f1a6df1d84255bb.setContent(html_2dd2a083a2b92ac35a12fd8b4bcb3a0b);
+            
+        
+
+        marker_02c6f770c43ec6a832b3a3482318e36b.bindPopup(popup_81cb44c2d126b9e99f1a6df1d84255bb)
+        ;
+
+        
+    
+    
+            var marker_8d2ae1fae1107296d927b738ce7298ad = L.marker(
+                [40.595893, -74.000009],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_899d8094ecc7435e4ac098473f065acd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_8d2ae1fae1107296d927b738ce7298ad.setIcon(icon_899d8094ecc7435e4ac098473f065acd);
+        
+    
+        var popup_b8125649ac015aa48e9fbec394d07d98 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_b3e6b9afe548843744306abda01312b2 = $(`<div id="html_b3e6b9afe548843744306abda01312b2" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231319<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 14.0 feet<br><strong>Underpass:</strong> BAY PARKWAY<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 01/05/2018-<br>01/05/2018</div>`)[0];
+                popup_b8125649ac015aa48e9fbec394d07d98.setContent(html_b3e6b9afe548843744306abda01312b2);
+            
+        
+
+        marker_8d2ae1fae1107296d927b738ce7298ad.bindPopup(popup_b8125649ac015aa48e9fbec394d07d98)
+        ;
+
+        
+    
+    
+            var marker_dc82cd212bb5c432f26d4783adbc3de7 = L.marker(
+                [40.5841845, -73.986988],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_8442764217c3cbedcd283a5e616fc2f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_dc82cd212bb5c432f26d4783adbc3de7.setIcon(icon_8442764217c3cbedcd283a5e616fc2f7);
+        
+    
+        var popup_873ce259ef638914ae69c004b597920d = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_990b54b8288a20de4cea727b98ceb66c = $(`<div id="html_990b54b8288a20de4cea727b98ceb66c" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231340<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 13.3 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 2<br><strong>Date Range:</strong> 07/28/2019-<br>11/24/2020</div>`)[0];
+                popup_873ce259ef638914ae69c004b597920d.setContent(html_990b54b8288a20de4cea727b98ceb66c);
+            
+        
+
+        marker_dc82cd212bb5c432f26d4783adbc3de7.bindPopup(popup_873ce259ef638914ae69c004b597920d)
+        ;
+
+        
+    
+    
+            var marker_40fbe377f3abaf706a9bf2f6c342ba60 = L.marker(
+                [40.583891, -73.966856],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_2a706e59e292524b339da6f7efbc0055 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_40fbe377f3abaf706a9bf2f6c342ba60.setIcon(icon_2a706e59e292524b339da6f7efbc0055);
+        
+    
+        var popup_e6c069d0d186d258296b55ca0c9fdb7b = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_a921a0cf0fef9d870f2898c663cff8c9 = $(`<div id="html_a921a0cf0fef9d870f2898c663cff8c9" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231360<br><strong>Year Built:</strong> 2004<br><strong>Clearance Height:</strong> 14.5 feet<br><strong>Underpass:</strong> OCEAN PARKWAY<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 3<br><strong>Date Range:</strong> 10/19/2015-<br>09/24/2018</div>`)[0];
+                popup_e6c069d0d186d258296b55ca0c9fdb7b.setContent(html_a921a0cf0fef9d870f2898c663cff8c9);
+            
+        
+
+        marker_40fbe377f3abaf706a9bf2f6c342ba60.bindPopup(popup_e6c069d0d186d258296b55ca0c9fdb7b)
+        ;
+
+        
+    
+    
+            var marker_6dbb895bd216e93e41bb884a4167f82e = L.marker(
+                [40.584695999999994, -73.96023],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_2549e18ef3effd3e653c142951d0befe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_6dbb895bd216e93e41bb884a4167f82e.setIcon(icon_2549e18ef3effd3e653c142951d0befe);
+        
+    
+        var popup_c3220c396a2a1c5d1e706db4da4e08ad = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_430906d858af46470ae2ac01526e5da3 = $(`<div id="html_430906d858af46470ae2ac01526e5da3" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231380<br><strong>Year Built:</strong> 1942<br><strong>Clearance Height:</strong> 14.0 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 1<br>West: 1<br><strong>Date Range:</strong> 04/25/2014-<br>06/10/2014</div>`)[0];
+                popup_c3220c396a2a1c5d1e706db4da4e08ad.setContent(html_430906d858af46470ae2ac01526e5da3);
+            
+        
+
+        marker_6dbb895bd216e93e41bb884a4167f82e.bindPopup(popup_c3220c396a2a1c5d1e706db4da4e08ad)
+        ;
+
+        
+    
+    
+            var marker_16018a5331116910f5f0dee5e8713650 = L.marker(
+                [40.585008, -73.957673],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_98b9d5fcc92f656b73697207844f10fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_16018a5331116910f5f0dee5e8713650.setIcon(icon_98b9d5fcc92f656b73697207844f10fe);
+        
+    
+        var popup_f605468accd6d71678d963826134bce3 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_b607a8e65d18be30ddbab5874e1136d0 = $(`<div id="html_b607a8e65d18be30ddbab5874e1136d0" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231390<br><strong>Year Built:</strong> 1942<br><strong>Clearance Height:</strong> 13.3 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 3<br><strong>Date Range:</strong> 04/04/2013-<br>12/03/2016</div>`)[0];
+                popup_f605468accd6d71678d963826134bce3.setContent(html_b607a8e65d18be30ddbab5874e1136d0);
+            
+        
+
+        marker_16018a5331116910f5f0dee5e8713650.bindPopup(popup_f605468accd6d71678d963826134bce3)
+        ;
+
+        
+    
+    
+            var marker_2deb616083052654aeb7089c2fdc90bf = L.marker(
+                [40.585744, -73.931484],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_d4b16ea33602124c567df8ad3ec6427b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_2deb616083052654aeb7089c2fdc90bf.setIcon(icon_d4b16ea33602124c567df8ad3ec6427b);
+        
+    
+        var popup_e5e950e91dae0be7b30006bf2ba3e99b = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_7715c3e9b69b5c20eecb55c71858a98d = $(`<div id="html_7715c3e9b69b5c20eecb55c71858a98d" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231449<br><strong>Year Built:</strong> 1942<br><strong>Clearance Height:</strong> 12.5 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 5<br>West: 1<br><strong>Date Range:</strong> 04/16/2013-<br>05/17/2024</div>`)[0];
+                popup_e5e950e91dae0be7b30006bf2ba3e99b.setContent(html_7715c3e9b69b5c20eecb55c71858a98d);
+            
+        
+
+        marker_2deb616083052654aeb7089c2fdc90bf.bindPopup(popup_e5e950e91dae0be7b30006bf2ba3e99b)
+        ;
+
+        
+    
+    
+            var marker_571b50db3a94e3320d61576f51886e53 = L.marker(
+                [40.666227, -73.841453],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_cdb46058a41a76dc570fac01887f6462 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_571b50db3a94e3320d61576f51886e53.setIcon(icon_cdb46058a41a76dc570fac01887f6462);
+        
+    
+        var popup_cc27ec6fd09fd6e2014e99e2e8add0e3 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_508f982ca885bc6ca60cf81bbc0cee3c = $(`<div id="html_508f982ca885bc6ca60cf81bbc0cee3c" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231559<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 13.7 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 05/22/2018-<br>05/22/2018</div>`)[0];
+                popup_cc27ec6fd09fd6e2014e99e2e8add0e3.setContent(html_508f982ca885bc6ca60cf81bbc0cee3c);
+            
+        
+
+        marker_571b50db3a94e3320d61576f51886e53.bindPopup(popup_cc27ec6fd09fd6e2014e99e2e8add0e3)
+        ;
+
+        
+    
+    
+            var marker_62e2ad0f53ee1ef935acd1b305458a0c = L.marker(
+                [40.666461, -73.834803],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_32875530aed6f137ed306b4f3ff3bac0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_62e2ad0f53ee1ef935acd1b305458a0c.setIcon(icon_32875530aed6f137ed306b4f3ff3bac0);
+        
+    
+        var popup_c06570c5a1ad61c3c12989407558585c = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_d48c242c004f4f2b6465c85a5c4246e2 = $(`<div id="html_d48c242c004f4f2b6465c85a5c4246e2" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231570<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 11.9 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>West: 4<br><strong>Date Range:</strong> 02/06/2014-<br>09/17/2016</div>`)[0];
+                popup_c06570c5a1ad61c3c12989407558585c.setContent(html_d48c242c004f4f2b6465c85a5c4246e2);
+            
+        
+
+        marker_62e2ad0f53ee1ef935acd1b305458a0c.bindPopup(popup_c06570c5a1ad61c3c12989407558585c)
+        ;
+
+        
+    
+    
+            var marker_d9e1210356aca57c1f284cbb4749a035 = L.marker(
+                [40.66659891304347, -73.81053760869565],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_8ea6e3f895a6062cde3861a26b7e07e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d9e1210356aca57c1f284cbb4749a035.setIcon(icon_8ea6e3f895a6062cde3861a26b7e07e8);
+        
+    
+        var popup_a1ec6f6c74ffb74010512960a0c74c1f = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_6fb8f895438e136650cd769de3d060a4 = $(`<div id="html_6fb8f895438e136650cd769de3d060a4" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231590<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 12.2 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 17<br>West: 6<br><strong>Date Range:</strong> 05/18/2015-<br>04/14/2024</div>`)[0];
+                popup_a1ec6f6c74ffb74010512960a0c74c1f.setContent(html_6fb8f895438e136650cd769de3d060a4);
+            
+        
+
+        marker_d9e1210356aca57c1f284cbb4749a035.bindPopup(popup_a1ec6f6c74ffb74010512960a0c74c1f)
+        ;
+
+        
+    
+    
+            var marker_3c7e53e3907292b80fe8e62de02c1533 = L.marker(
+                [40.667285, -73.780237],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_44c92204a1f55eab1d2727c687aa6993 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3c7e53e3907292b80fe8e62de02c1533.setIcon(icon_44c92204a1f55eab1d2727c687aa6993);
+        
+    
+        var popup_c67576f3154be0b72678dd7b48a294d3 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_a1bd110df02a99a2a5fdfa09548ebdcc = $(`<div id="html_a1bd110df02a99a2a5fdfa09548ebdcc" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231602<br><strong>Year Built:</strong> 1992<br><strong>Clearance Height:</strong> 15.0 feet<br><strong>Underpass:</strong> ROCKWAY BOULEVARD<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 03/13/2017-<br>03/13/2017</div>`)[0];
+                popup_c67576f3154be0b72678dd7b48a294d3.setContent(html_a1bd110df02a99a2a5fdfa09548ebdcc);
+            
+        
+
+        marker_3c7e53e3907292b80fe8e62de02c1533.bindPopup(popup_c67576f3154be0b72678dd7b48a294d3)
+        ;
+
+        
+    
+    
+            var marker_db2ae2b8f681a40cec76a1217a420545 = L.marker(
+                [40.666941, -73.767092],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_c1749f99d7c6c08e865e8b3ea3fd5bec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_db2ae2b8f681a40cec76a1217a420545.setIcon(icon_c1749f99d7c6c08e865e8b3ea3fd5bec);
+        
+    
+        var popup_20fab4ed07ed00d2bd6a0a6991cf1eec = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_174b22b6c6da688b1e5a389ef07eba51 = $(`<div id="html_174b22b6c6da688b1e5a389ef07eba51" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231620<br><strong>Year Built:</strong> 1940<br><strong>Clearance Height:</strong> 12.6 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 2<br><strong>Date Range:</strong> 03/19/2013-<br>12/08/2015</div>`)[0];
+                popup_20fab4ed07ed00d2bd6a0a6991cf1eec.setContent(html_174b22b6c6da688b1e5a389ef07eba51);
+            
+        
+
+        marker_db2ae2b8f681a40cec76a1217a420545.bindPopup(popup_20fab4ed07ed00d2bd6a0a6991cf1eec)
+        ;
+
+        
+    
+    
+            var marker_5ace130675c40123d0a90508287ecf66 = L.marker(
+                [40.66583466666666, -73.75818199999999],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_8232982cd959e41c0ba7ceab9253c9a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_5ace130675c40123d0a90508287ecf66.setIcon(icon_8232982cd959e41c0ba7ceab9253c9a1);
+        
+    
+        var popup_99938bf3c1e5edcd8720a619c3e63124 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_43a2f84e47bec85599319586893561df = $(`<div id="html_43a2f84e47bec85599319586893561df" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231630<br><strong>Year Built:</strong> 1940<br><strong>Clearance Height:</strong> 12.6 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 1<br>South: 1<br>West: 1<br><strong>Date Range:</strong> 11/01/2016-<br>09/06/2022</div>`)[0];
+                popup_99938bf3c1e5edcd8720a619c3e63124.setContent(html_43a2f84e47bec85599319586893561df);
+            
+        
+
+        marker_5ace130675c40123d0a90508287ecf66.bindPopup(popup_99938bf3c1e5edcd8720a619c3e63124)
+        ;
+
+        
+    
+    
+            var marker_8a6224f79f71f69cb64a1d6eaa460627 = L.marker(
+                [40.66573914285714, -73.74108285714286],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_493d1060f95f437292ea4b054fde71c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_8a6224f79f71f69cb64a1d6eaa460627.setIcon(icon_493d1060f95f437292ea4b054fde71c4);
+        
+    
+        var popup_031f4e493883293c37d43a5c3e7865b5 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_8da0712397b4a6d03583428cb90fbd05 = $(`<div id="html_8da0712397b4a6d03583428cb90fbd05" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231650<br><strong>Year Built:</strong> 1947<br><strong>Clearance Height:</strong> 12.3 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 7<br><strong>Date Range:</strong> 06/05/2018-<br>02/28/2024</div>`)[0];
+                popup_031f4e493883293c37d43a5c3e7865b5.setContent(html_8da0712397b4a6d03583428cb90fbd05);
+            
+        
+
+        marker_8a6224f79f71f69cb64a1d6eaa460627.bindPopup(popup_031f4e493883293c37d43a5c3e7865b5)
+        ;
+
+        
+    
+    
+            var marker_972199548fcff968c038d1c434636460 = L.marker(
+                [40.673653, -73.734423],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_6ecced57f8a501a7eed569113901c06b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_972199548fcff968c038d1c434636460.setIcon(icon_6ecced57f8a501a7eed569113901c06b);
+        
+    
+        var popup_722174e5584a36d111e0cf46ed52d57e = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_f5a83c553ae22be612bb1cda279d3031 = $(`<div id="html_f5a83c553ae22be612bb1cda279d3031" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231710<br><strong>Year Built:</strong> 1952<br><strong>Clearance Height:</strong> 11.9 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 2<br>West: 1<br><strong>Date Range:</strong> 03/29/2022-<br>05/30/2023</div>`)[0];
+                popup_722174e5584a36d111e0cf46ed52d57e.setContent(html_f5a83c553ae22be612bb1cda279d3031);
+            
+        
+
+        marker_972199548fcff968c038d1c434636460.bindPopup(popup_722174e5584a36d111e0cf46ed52d57e)
+        ;
+
+        
+    
+    
+            var marker_57e63e0ee28a5f027385043a4bd40143 = L.marker(
+                [40.673837666666664, -73.73449366666667],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_dac5b2f9ac9b3704c7318971e47e4d5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_57e63e0ee28a5f027385043a4bd40143.setIcon(icon_dac5b2f9ac9b3704c7318971e47e4d5b);
+        
+    
+        var popup_bd1a5b03e2eb9fe917d9ecefcf5b9309 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_305a689b4e5c9837f51ab14e5f1bd97d = $(`<div id="html_305a689b4e5c9837f51ab14e5f1bd97d" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231720<br><strong>Year Built:</strong> 1933<br><strong>Clearance Height:</strong> 10.4 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br>East: 1<br>West: 1<br><strong>Date Range:</strong> 11/25/2013-<br>02/23/2019</div>`)[0];
+                popup_bd1a5b03e2eb9fe917d9ecefcf5b9309.setContent(html_305a689b4e5c9837f51ab14e5f1bd97d);
+            
+        
+
+        marker_57e63e0ee28a5f027385043a4bd40143.bindPopup(popup_bd1a5b03e2eb9fe917d9ecefcf5b9309)
+        ;
+
+        
+    
+    
+            var marker_1fc12598f348c055d82d2a7cf625243b = L.marker(
+                [40.678676, -73.729805],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_6ede6f4a0e9f98e2fcb327d130df88ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_1fc12598f348c055d82d2a7cf625243b.setIcon(icon_6ede6f4a0e9f98e2fcb327d130df88ad);
+        
+    
+        var popup_e657d8c5d89b04a6a2bbd35031103fec = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_566566611be492a5fbaf01592cbe6bf6 = $(`<div id="html_566566611be492a5fbaf01592cbe6bf6" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231730<br><strong>Year Built:</strong> 1952<br><strong>Clearance Height:</strong> 11.4 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 2<br><strong>Date Range:</strong> 05/29/2022-<br>09/14/2022</div>`)[0];
+                popup_e657d8c5d89b04a6a2bbd35031103fec.setContent(html_566566611be492a5fbaf01592cbe6bf6);
+            
+        
+
+        marker_1fc12598f348c055d82d2a7cf625243b.bindPopup(popup_e657d8c5d89b04a6a2bbd35031103fec)
+        ;
+
+        
+    
+    
+            var marker_5e7cc08ef556ae725e74d3ad09461ba9 = L.marker(
+                [40.678828, -73.72986166666666],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_59c4adbfb84a02dea6f1afad53b8f5b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_5e7cc08ef556ae725e74d3ad09461ba9.setIcon(icon_59c4adbfb84a02dea6f1afad53b8f5b3);
+        
+    
+        var popup_4b1389ec9a7c3f3a952689005b593b2e = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_7be320f989c28f4528b3bb45fab4554f = $(`<div id="html_7be320f989c28f4528b3bb45fab4554f" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231740<br><strong>Year Built:</strong> 1933<br><strong>Clearance Height:</strong> 10.4 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 3<br><strong>Date Range:</strong> 03/13/2017-<br>04/12/2022</div>`)[0];
+                popup_4b1389ec9a7c3f3a952689005b593b2e.setContent(html_7be320f989c28f4528b3bb45fab4554f);
+            
+        
+
+        marker_5e7cc08ef556ae725e74d3ad09461ba9.bindPopup(popup_4b1389ec9a7c3f3a952689005b593b2e)
+        ;
+
+        
+    
+    
+            var marker_b19529176458800f394984b514e95a02 = L.marker(
+                [40.690743, -73.72678],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_75ecc7d5fbe175a99e42877497b87d47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_b19529176458800f394984b514e95a02.setIcon(icon_75ecc7d5fbe175a99e42877497b87d47);
+        
+    
+        var popup_d217eb43ced8db467b17ee9edd355d54 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_dffdcaa0ad3450977cd3bb137c318a07 = $(`<div id="html_dffdcaa0ad3450977cd3bb137c318a07" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231750<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 11.7 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 5<br>West: 1<br>North: 1<br><strong>Date Range:</strong> 06/29/2016-<br>03/01/2021</div>`)[0];
+                popup_d217eb43ced8db467b17ee9edd355d54.setContent(html_dffdcaa0ad3450977cd3bb137c318a07);
+            
+        
+
+        marker_b19529176458800f394984b514e95a02.bindPopup(popup_d217eb43ced8db467b17ee9edd355d54)
+        ;
+
+        
+    
+    
+            var marker_659e694b3f9bf1234e7daaafc08be40c = L.marker(
+                [40.705803, -73.727361],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_1fd00a269a6e7fbd606df5170c1c3d63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_659e694b3f9bf1234e7daaafc08be40c.setIcon(icon_1fd00a269a6e7fbd606df5170c1c3d63);
+        
+    
+        var popup_39c2e3c8b445193f5ec08b5278b2a140 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_fc95676b54d096e3e33e8d8401f54ba2 = $(`<div id="html_fc95676b54d096e3e33e8d8401f54ba2" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231770<br><strong>Year Built:</strong> 1957<br><strong>Clearance Height:</strong> 14.1 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 05/12/2015-<br>05/12/2015</div>`)[0];
+                popup_39c2e3c8b445193f5ec08b5278b2a140.setContent(html_fc95676b54d096e3e33e8d8401f54ba2);
+            
+        
+
+        marker_659e694b3f9bf1234e7daaafc08be40c.bindPopup(popup_39c2e3c8b445193f5ec08b5278b2a140)
+        ;
+
+        
+    
+    
+            var marker_15f05951a425261fc3712010e4b7ac90 = L.marker(
+                [40.7111895, -73.728217],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_3382cd98b4d8bbb90bdbb102f97c5153 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_15f05951a425261fc3712010e4b7ac90.setIcon(icon_3382cd98b4d8bbb90bdbb102f97c5153);
+        
+    
+        var popup_ab9dfd90bf34c856b721854da44e2458 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_35d649ef8974e4f7efaefaceb0b3ca19 = $(`<div id="html_35d649ef8974e4f7efaefaceb0b3ca19" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231780<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 11.7 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 1<br>South: 1<br><strong>Date Range:</strong> 03/01/2021-<br>01/14/2022</div>`)[0];
+                popup_ab9dfd90bf34c856b721854da44e2458.setContent(html_35d649ef8974e4f7efaefaceb0b3ca19);
+            
+        
+
+        marker_15f05951a425261fc3712010e4b7ac90.bindPopup(popup_ab9dfd90bf34c856b721854da44e2458)
+        ;
+
+        
+    
+    
+            var marker_70dcc60ceb3c2ae43e731f252e77b44f = L.marker(
+                [40.7205595, -73.72562025],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_012a0a6c739ee6008f3734debf7abdbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_70dcc60ceb3c2ae43e731f252e77b44f.setIcon(icon_012a0a6c739ee6008f3734debf7abdbf);
+        
+    
+        var popup_59db181bdea9657a01db1d81b43d9e48 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_61d00d6de27758cced966b1bc71efc85 = $(`<div id="html_61d00d6de27758cced966b1bc71efc85" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231800<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 12.0 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 4<br><strong>Date Range:</strong> 12/11/2014-<br>09/11/2019</div>`)[0];
+                popup_59db181bdea9657a01db1d81b43d9e48.setContent(html_61d00d6de27758cced966b1bc71efc85);
+            
+        
+
+        marker_70dcc60ceb3c2ae43e731f252e77b44f.bindPopup(popup_59db181bdea9657a01db1d81b43d9e48)
+        ;
+
+        
+    
+    
+            var marker_ae0b07dcab2418dc1a430c8866a027cc = L.marker(
+                [40.734262, -73.722845],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_014b746e58828e0a727e7816a455ea26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_ae0b07dcab2418dc1a430c8866a027cc.setIcon(icon_014b746e58828e0a727e7816a455ea26);
+        
+    
+        var popup_8af1b62c64503ca3866bf1cf4e0aec00 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_2b3249ec7801b439b3545db3c0714f4c = $(`<div id="html_2b3249ec7801b439b3545db3c0714f4c" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231840<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 12.0 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 08/11/2020-<br>08/11/2020</div>`)[0];
+                popup_8af1b62c64503ca3866bf1cf4e0aec00.setContent(html_2b3249ec7801b439b3545db3c0714f4c);
+            
+        
+
+        marker_ae0b07dcab2418dc1a430c8866a027cc.bindPopup(popup_8af1b62c64503ca3866bf1cf4e0aec00)
+        ;
+
+        
+    
+    
+            var marker_860a56e26680e469cd628007b5404a50 = L.marker(
+                [40.74087, -73.726832],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_04a3c2e14863bfed7255731741c272ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_860a56e26680e469cd628007b5404a50.setIcon(icon_04a3c2e14863bfed7255731741c272ed);
+        
+    
+        var popup_9d31c16e12789b718e4ec031e5458498 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_2ddcc6b2002a2109a539e8b94880d04a = $(`<div id="html_2ddcc6b2002a2109a539e8b94880d04a" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231850<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 11.6 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 10<br>North: 1<br><strong>Date Range:</strong> 01/10/2013-<br>09/20/2022</div>`)[0];
+                popup_9d31c16e12789b718e4ec031e5458498.setContent(html_2ddcc6b2002a2109a539e8b94880d04a);
+            
+        
+
+        marker_860a56e26680e469cd628007b5404a50.bindPopup(popup_9d31c16e12789b718e4ec031e5458498)
+        ;
+
+        
+    
+    
+            var marker_e6bd00b5255ad5950b0dc2bee9be88b0 = L.marker(
+                [40.751706, -73.742698],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_6cffb2d0082acbd9710e462f61b5f656 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_e6bd00b5255ad5950b0dc2bee9be88b0.setIcon(icon_6cffb2d0082acbd9710e462f61b5f656);
+        
+    
+        var popup_c124dc9e5e65807a36fb54e661fdd7c8 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_f55d3d520d4d749fdfd6a3f5ffca798f = $(`<div id="html_f55d3d520d4d749fdfd6a3f5ffca798f" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231860<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 12.0 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 2<br><strong>Date Range:</strong> 01/13/2014-<br>06/26/2023</div>`)[0];
+                popup_c124dc9e5e65807a36fb54e661fdd7c8.setContent(html_f55d3d520d4d749fdfd6a3f5ffca798f);
+            
+        
+
+        marker_e6bd00b5255ad5950b0dc2bee9be88b0.bindPopup(popup_c124dc9e5e65807a36fb54e661fdd7c8)
+        ;
+
+        
+    
+    
+            var marker_ec14ea6e0053bf7175f1c0819cc2fbf5 = L.marker(
+                [40.76227333333333, -73.75701933333333],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_3f330db84cd8a553b7503df3a8489081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_ec14ea6e0053bf7175f1c0819cc2fbf5.setIcon(icon_3f330db84cd8a553b7503df3a8489081);
+        
+    
+        var popup_09edfebfb548b19264279820a9ca7d27 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_945ac0b426fb7b1f9ccad65e51fb87e8 = $(`<div id="html_945ac0b426fb7b1f9ccad65e51fb87e8" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231870<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 14.7 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 2<br>South: 1<br><strong>Date Range:</strong> 04/30/2013-<br>05/11/2021</div>`)[0];
+                popup_09edfebfb548b19264279820a9ca7d27.setContent(html_945ac0b426fb7b1f9ccad65e51fb87e8);
+            
+        
+
+        marker_ec14ea6e0053bf7175f1c0819cc2fbf5.bindPopup(popup_09edfebfb548b19264279820a9ca7d27)
+        ;
+
+        
+    
+    
+            var marker_5709a20a0af1093ef3839612290ff7d8 = L.marker(
+                [40.786434, -73.806265],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_b033863e4749f53debdf66b1b797df94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_5709a20a0af1093ef3839612290ff7d8.setIcon(icon_b033863e4749f53debdf66b1b797df94);
+        
+    
+        var popup_10746bc81ad12ed01af7d4c89beaee79 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_3a4b11dc214eee3979e9fb119ce04278 = $(`<div id="html_3a4b11dc214eee3979e9fb119ce04278" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231930<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 12.0 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>North: 1<br>West: 1<br><strong>Date Range:</strong> 08/08/2019-<br>04/06/2022</div>`)[0];
+                popup_10746bc81ad12ed01af7d4c89beaee79.setContent(html_3a4b11dc214eee3979e9fb119ce04278);
+            
+        
+
+        marker_5709a20a0af1093ef3839612290ff7d8.bindPopup(popup_10746bc81ad12ed01af7d4c89beaee79)
+        ;
+
+        
+    
+    
+            var marker_fe60d62ebc69ab585b39c769372af7ae = L.marker(
+                [40.786873, -73.810109],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_2fe73cd7d7edc689a3fd0bafc05bc453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_fe60d62ebc69ab585b39c769372af7ae.setIcon(icon_2fe73cd7d7edc689a3fd0bafc05bc453);
+        
+    
+        var popup_e6f0a914337b2c7c43c3f8e779174cb5 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_a73329c5c7385fa3a012ffb8ee318aba = $(`<div id="html_a73329c5c7385fa3a012ffb8ee318aba" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231940<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 11.6 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 2<br><strong>Date Range:</strong> 07/26/2018-<br>10/13/2020</div>`)[0];
+                popup_e6f0a914337b2c7c43c3f8e779174cb5.setContent(html_a73329c5c7385fa3a012ffb8ee318aba);
+            
+        
+
+        marker_fe60d62ebc69ab585b39c769372af7ae.bindPopup(popup_e6f0a914337b2c7c43c3f8e779174cb5)
+        ;
+
+        
+    
+    
+            var marker_ecb9f143f4242ecc30f43a5bf208a483 = L.marker(
+                [40.787291, -73.813322],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_c672e65a524f88fd77af5095575e3202 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_ecb9f143f4242ecc30f43a5bf208a483.setIcon(icon_c672e65a524f88fd77af5095575e3202);
+        
+    
+        var popup_fe2edeab311e8fdb3355562f927fe356 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_90df71b9e87ff939479ae7dbd03909e4 = $(`<div id="html_90df71b9e87ff939479ae7dbd03909e4" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231950<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 11.8 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 11/16/2015-<br>11/16/2015</div>`)[0];
+                popup_fe2edeab311e8fdb3355562f927fe356.setContent(html_90df71b9e87ff939479ae7dbd03909e4);
+            
+        
+
+        marker_ecb9f143f4242ecc30f43a5bf208a483.bindPopup(popup_fe2edeab311e8fdb3355562f927fe356)
+        ;
+
+        
+    
+    
+            var marker_2f901ba7e10bea3c9981d699902fb7a4 = L.marker(
+                [40.788146, -73.816896],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_8bb1e4aebf2acc3a06e23fc4f9084a18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_2f901ba7e10bea3c9981d699902fb7a4.setIcon(icon_8bb1e4aebf2acc3a06e23fc4f9084a18);
+        
+    
+        var popup_7939176b5f6b7af2a0d49b387e3b3134 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_ceec132c002e975ff24df5314ca93ca4 = $(`<div id="html_ceec132c002e975ff24df5314ca93ca4" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231970<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 12.3 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 02/05/2019-<br>02/05/2019</div>`)[0];
+                popup_7939176b5f6b7af2a0d49b387e3b3134.setContent(html_ceec132c002e975ff24df5314ca93ca4);
+            
+        
+
+        marker_2f901ba7e10bea3c9981d699902fb7a4.bindPopup(popup_7939176b5f6b7af2a0d49b387e3b3134)
+        ;
+
+        
+    
+    
+            var marker_a0c79295ab004f2ee7d2b60178dc4d6f = L.marker(
+                [40.789242888888886, -73.81939822222222],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_fcb01f75111f07ecdf9b9eec6598e891 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_a0c79295ab004f2ee7d2b60178dc4d6f.setIcon(icon_fcb01f75111f07ecdf9b9eec6598e891);
+        
+    
+        var popup_c1fe019aada944e77aeb022372b30a28 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_4b9b9f742d185f5a00c28730938f94a1 = $(`<div id="html_4b9b9f742d185f5a00c28730938f94a1" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2231980<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 11.6 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 5<br>North: 3<br>East: 1<br><strong>Date Range:</strong> 06/27/2013-<br>07/11/2023</div>`)[0];
+                popup_c1fe019aada944e77aeb022372b30a28.setContent(html_4b9b9f742d185f5a00c28730938f94a1);
+            
+        
+
+        marker_a0c79295ab004f2ee7d2b60178dc4d6f.bindPopup(popup_c1fe019aada944e77aeb022372b30a28)
+        ;
+
+        
+    
+    
+            var marker_eeb9da08beccb3d91a38faf6bd283849 = L.marker(
+                [40.773103, -73.944512],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_30cec3e3b2e19a464bba50ae1a51be39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_eeb9da08beccb3d91a38faf6bd283849.setIcon(icon_30cec3e3b2e19a464bba50ae1a51be39);
+        
+    
+        var popup_7d2f4b7c90c48dc12b9e7409e0b194d7 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_d596724c31446ef13cb9047225586c48 = $(`<div id="html_d596724c31446ef13cb9047225586c48" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2232158<br><strong>Year Built:</strong> 1942<br><strong>Clearance Height:</strong> 12.8 feet<br><strong>Underpass:</strong> FDR DRIVE<br><strong>Speed Limit of Underpass:</strong> 40 mph<br><strong>Direction(s):</strong> <br>South: 1<br><strong>Date Range:</strong> 05/22/2013-<br>05/22/2013</div>`)[0];
+                popup_7d2f4b7c90c48dc12b9e7409e0b194d7.setContent(html_d596724c31446ef13cb9047225586c48);
+            
+        
+
+        marker_eeb9da08beccb3d91a38faf6bd283849.bindPopup(popup_7d2f4b7c90c48dc12b9e7409e0b194d7)
+        ;
+
+        
+    
+    
+            var marker_d898eaafa8cd6ae8d3a3e65b31795d89 = L.marker(
+                [40.75902768965518, -73.95830334482758],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_d7502e89a5c1696d8e0f31f4417a95b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d898eaafa8cd6ae8d3a3e65b31795d89.setIcon(icon_d7502e89a5c1696d8e0f31f4417a95b5);
+        
+    
+        var popup_ae8c513deb4794cf7bf7dc3de6591ce8 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_c9bf14002eda5044b4750715b8a470ba = $(`<div id="html_c9bf14002eda5044b4750715b8a470ba" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2233038<br><strong>Year Built:</strong> 1941<br><strong>Clearance Height:</strong> 12.1 feet<br><strong>Underpass:</strong> FDR DRIVE<br><strong>Speed Limit of Underpass:</strong> 40 mph<br><strong>Direction(s):</strong> <br>North: 27<br>South: 2<br><strong>Date Range:</strong> 07/01/2014-<br>03/28/2023</div>`)[0];
+                popup_ae8c513deb4794cf7bf7dc3de6591ce8.setContent(html_c9bf14002eda5044b4750715b8a470ba);
+            
+        
+
+        marker_d898eaafa8cd6ae8d3a3e65b31795d89.bindPopup(popup_ae8c513deb4794cf7bf7dc3de6591ce8)
+        ;
+
+        
+    
+    
+            var marker_0b2db06173aae5c366cbbf205e0741c8 = L.marker(
+                [40.706143, -73.996773],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_66fa361b29436bfcdd633a8e9988aba0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b2db06173aae5c366cbbf205e0741c8.setIcon(icon_66fa361b29436bfcdd633a8e9988aba0);
+        
+    
+        var popup_d2f1e61e60937f21439a79a5a38303d8 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_ac82b6e6becee579e221da13e87c6a6f = $(`<div id="html_ac82b6e6becee579e221da13e87c6a6f" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2240019<br><strong>Year Built:</strong> 1883<br><strong>Clearance Height:</strong> 14.0 feet<br><strong>Underpass:</strong> BROOKLYN BRIDGE<br><strong>Speed Limit of Underpass:</strong> 30 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 11/08/2014-<br>11/08/2014</div>`)[0];
+                popup_d2f1e61e60937f21439a79a5a38303d8.setContent(html_ac82b6e6becee579e221da13e87c6a6f);
+            
+        
+
+        marker_0b2db06173aae5c366cbbf205e0741c8.bindPopup(popup_d2f1e61e60937f21439a79a5a38303d8)
+        ;
+
+        
+    
+    
+            var marker_3aed03af3b32d820c3362361ff9f7f4d = L.marker(
+                [40.639779, -74.026624],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_0720c6e27ec871bffdc43aae6cd6d90b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3aed03af3b32d820c3362361ff9f7f4d.setIcon(icon_0720c6e27ec871bffdc43aae6cd6d90b);
+        
+    
+        var popup_49728b245a73862a4bcd79c826d70213 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_6ceba534183293bcc5a86618e7eea5c3 = $(`<div id="html_6ceba534183293bcc5a86618e7eea5c3" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2244150<br><strong>Year Built:</strong> 2000<br><strong>Clearance Height:</strong> 15.4 feet<br><strong>Underpass:</strong> SHORE ROAD<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 06/28/2013-<br>06/28/2013</div>`)[0];
+                popup_49728b245a73862a4bcd79c826d70213.setContent(html_6ceba534183293bcc5a86618e7eea5c3);
+            
+        
+
+        marker_3aed03af3b32d820c3362361ff9f7f4d.bindPopup(popup_49728b245a73862a4bcd79c826d70213)
+        ;
+
+        
+    
+    
+            var marker_8d8270f85630859e0c85fdbb707f5adf = L.marker(
+                [40.769876, -73.974707],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_4a75438bfaedb75d33a46761d34c1b14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8d8270f85630859e0c85fdbb707f5adf.setIcon(icon_4a75438bfaedb75d33a46761d34c1b14);
+        
+    
+        var popup_12cfb7b908294c48fcc1f3e83be08ff1 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_6cca8b333fee51c4ad1bfdbe2a967c47 = $(`<div id="html_6cca8b333fee51c4ad1bfdbe2a967c47" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2246100<br><strong>Year Built:</strong> 1920<br><strong>Clearance Height:</strong> 11.3 feet<br><strong>Underpass:</strong> 65th STREET<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>West: 2<br><strong>Date Range:</strong> 03/30/2015-<br>03/11/2017</div>`)[0];
+                popup_12cfb7b908294c48fcc1f3e83be08ff1.setContent(html_6cca8b333fee51c4ad1bfdbe2a967c47);
+            
+        
+
+        marker_8d8270f85630859e0c85fdbb707f5adf.bindPopup(popup_12cfb7b908294c48fcc1f3e83be08ff1)
+        ;
+
+        
+    
+    
+            var marker_ae2bc74b114ca479694766b140dcf55a = L.marker(
+                [40.771707, -73.977705],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_6a4ab1d60b2c7bec1174a081c8e7bd6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae2bc74b114ca479694766b140dcf55a.setIcon(icon_6a4ab1d60b2c7bec1174a081c8e7bd6b);
+        
+    
+        var popup_714f998a3da390d424450233adbca890 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_1a3bdeb492c286436ff76d9ab4b8c9bc = $(`<div id="html_1a3bdeb492c286436ff76d9ab4b8c9bc" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2246120<br><strong>Year Built:</strong> 1900<br><strong>Clearance Height:</strong> 10.5 feet<br><strong>Underpass:</strong> WEST 66th STREET<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 12/06/2019-<br>12/06/2019</div>`)[0];
+                popup_714f998a3da390d424450233adbca890.setContent(html_1a3bdeb492c286436ff76d9ab4b8c9bc);
+            
+        
+
+        marker_ae2bc74b114ca479694766b140dcf55a.bindPopup(popup_714f998a3da390d424450233adbca890)
+        ;
+
+        
+    
+    
+            var marker_47df4ff0f087e0da5d73e1a65c288b71 = L.marker(
+                [40.779875, -73.970888],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_3b82634bad3cd2948231462a0887c492 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_47df4ff0f087e0da5d73e1a65c288b71.setIcon(icon_3b82634bad3cd2948231462a0887c492);
+        
+    
+        var popup_8fc4356e5a1392ffa894083ed66e1081 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_14059e1a714ee1668ee733c8db2c70ae = $(`<div id="html_14059e1a714ee1668ee733c8db2c70ae" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2246240<br><strong>Year Built:</strong> 1920<br><strong>Clearance Height:</strong> 10.8 feet<br><strong>Underpass:</strong> EAST 79th STREET<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 09/07/2023-<br>09/07/2023</div>`)[0];
+                popup_8fc4356e5a1392ffa894083ed66e1081.setContent(html_14059e1a714ee1668ee733c8db2c70ae);
+            
+        
+
+        marker_47df4ff0f087e0da5d73e1a65c288b71.bindPopup(popup_8fc4356e5a1392ffa894083ed66e1081)
+        ;
+
+        
+    
+    
+            var marker_a9aab942e7f162624c184658d94aeeb4 = L.marker(
+                [40.752146, -73.977668],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_1f5d83ec52b31be94e99a6bb00b0f488 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a9aab942e7f162624c184658d94aeeb4.setIcon(icon_1f5d83ec52b31be94e99a6bb00b0f488);
+        
+    
+        var popup_6e0ede8adc8f7452f95054e4ea281fda = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_a31e81eaf8e497fc7789fcbf73af359c = $(`<div id="html_a31e81eaf8e497fc7789fcbf73af359c" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2246550<br><strong>Year Built:</strong> 1917<br><strong>Clearance Height:</strong> 13.3 feet<br><strong>Underpass:</strong> EAST 42nd STREET<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>North: 2<br><strong>Date Range:</strong> 01/11/2013-<br>05/15/2017</div>`)[0];
+                popup_6e0ede8adc8f7452f95054e4ea281fda.setContent(html_a31e81eaf8e497fc7789fcbf73af359c);
+            
+        
+
+        marker_a9aab942e7f162624c184658d94aeeb4.bindPopup(popup_6e0ede8adc8f7452f95054e4ea281fda)
+        ;
+
+        
+    
+    
+            var marker_58c558c04d83fd2d163a71dbb5bb1520 = L.marker(
+                [40.73349885714286, -73.870492],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_97ffbc07bee5da9bcaad7f7e2536578e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_58c558c04d83fd2d163a71dbb5bb1520.setIcon(icon_97ffbc07bee5da9bcaad7f7e2536578e);
+        
+    
+        var popup_6211cb7a5045449faa5f4217bf13fbe3 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_f387258180d9050ae47bf63c4ded84b2 = $(`<div id="html_f387258180d9050ae47bf63c4ded84b2" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2248159<br><strong>Year Built:</strong> 1940<br><strong>Clearance Height:</strong> 13.1 feet<br><strong>Underpass:</strong> QUEENS BOULEVARD<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 6<br>West: 1<br><strong>Date Range:</strong> 06/18/2014-<br>12/17/2019</div>`)[0];
+                popup_6211cb7a5045449faa5f4217bf13fbe3.setContent(html_f387258180d9050ae47bf63c4ded84b2);
+            
+        
+
+        marker_58c558c04d83fd2d163a71dbb5bb1520.bindPopup(popup_6211cb7a5045449faa5f4217bf13fbe3)
+        ;
+
+        
+    
+    
+            var marker_eb861814d6fca01332bb121ffdde6312 = L.marker(
+                [40.732583, -73.86786],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_c3c7e855018607879b1ebb4fa95bc3b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_eb861814d6fca01332bb121ffdde6312.setIcon(icon_c3c7e855018607879b1ebb4fa95bc3b4);
+        
+    
+        var popup_ada119e23397a59d26546d99c43d9878 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_50939a2f040f2317f4275e0de19c4a56 = $(`<div id="html_50939a2f040f2317f4275e0de19c4a56" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2248160<br><strong>Year Built:</strong> 1940<br><strong>Clearance Height:</strong> 13.4 feet<br><strong>Underpass:</strong> QUEENS BOULEVARD<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>West: 1<br><strong>Date Range:</strong> 10/14/2019-<br>10/14/2019</div>`)[0];
+                popup_ada119e23397a59d26546d99c43d9878.setContent(html_50939a2f040f2317f4275e0de19c4a56);
+            
+        
+
+        marker_eb861814d6fca01332bb121ffdde6312.bindPopup(popup_ada119e23397a59d26546d99c43d9878)
+        ;
+
+        
+    
+    
+            var marker_18bcd90618640ef47a665ddfeb9fb524 = L.marker(
+                [40.713031, -73.833666],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_553bfb9b697c96876cf239e9500af6ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_18bcd90618640ef47a665ddfeb9fb524.setIcon(icon_553bfb9b697c96876cf239e9500af6ec);
+        
+    
+        var popup_075400941ae7ba3fe964f96d9ac8728a = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_ad6db6cae736963216b194b3d2229406 = $(`<div id="html_ad6db6cae736963216b194b3d2229406" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2248299<br><strong>Year Built:</strong> 1960<br><strong>Clearance Height:</strong> 13.8 feet<br><strong>Underpass:</strong> AUSTIN STREET<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 1<br>West: 1<br><strong>Date Range:</strong> 09/29/2021-<br>11/22/2021</div>`)[0];
+                popup_075400941ae7ba3fe964f96d9ac8728a.setContent(html_ad6db6cae736963216b194b3d2229406);
+            
+        
+
+        marker_18bcd90618640ef47a665ddfeb9fb524.bindPopup(popup_075400941ae7ba3fe964f96d9ac8728a)
+        ;
+
+        
+    
+    
+            var marker_aea4b0280ae6310f7c384786e1ef934f = L.marker(
+                [40.745679, -73.735039],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_be58a2414011e5718dd5db1f4df0f4c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_aea4b0280ae6310f7c384786e1ef934f.setIcon(icon_be58a2414011e5718dd5db1f4df0f4c8);
+        
+    
+        var popup_4b4f97c218b5da2a1118d7894e407abe = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_f9f66fd7ff705ba10dda28f26ea52744 = $(`<div id="html_f9f66fd7ff705ba10dda28f26ea52744" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2266139<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 12.0 feet<br><strong>Underpass:</strong> CROSS ISLAND PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 6<br><strong>Date Range:</strong> 07/27/2013-<br>09/15/2023</div>`)[0];
+                popup_4b4f97c218b5da2a1118d7894e407abe.setContent(html_f9f66fd7ff705ba10dda28f26ea52744);
+            
+        
+
+        marker_aea4b0280ae6310f7c384786e1ef934f.bindPopup(popup_4b4f97c218b5da2a1118d7894e407abe)
+        ;
+
+        
+    
+    
+            var marker_224ffc3c44b6ba099ec9d8eb1f0adcfa = L.marker(
+                [40.789597, -73.82259],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_39b551f7ec3f6cacc44ece428e1d9a8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_224ffc3c44b6ba099ec9d8eb1f0adcfa.setIcon(icon_39b551f7ec3f6cacc44ece428e1d9a8f);
+        
+    
+        var popup_d8f13dc67763f905791aa936ca298d1e = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_c3b59825cc11b3dd3a73778d83846335 = $(`<div id="html_c3b59825cc11b3dd3a73778d83846335" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2266160<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 13.2 feet<br><strong>Underpass:</strong> WHITESTONE EXPRESSWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>South: 1<br>North: 1<br><strong>Date Range:</strong> 05/18/2014-<br>06/10/2021</div>`)[0];
+                popup_d8f13dc67763f905791aa936ca298d1e.setContent(html_c3b59825cc11b3dd3a73778d83846335);
+            
+        
+
+        marker_224ffc3c44b6ba099ec9d8eb1f0adcfa.bindPopup(popup_d8f13dc67763f905791aa936ca298d1e)
+        ;
+
+        
+    
+    
+            var marker_0cfe1ade4af2f88fd89665068480e7b1 = L.marker(
+                [40.75212175, -73.9647385],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_59c6d1662570de7569b65c6482e3dcbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0cfe1ade4af2f88fd89665068480e7b1.setIcon(icon_59c6d1662570de7569b65c6482e3dcbf);
+        
+    
+        var popup_5cbf6bce6a1d043cb031255ed6204066 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_441258e2da619d785ade2cadd1c144ba = $(`<div id="html_441258e2da619d785ade2cadd1c144ba" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2266630<br><strong>Year Built:</strong> 1998<br><strong>Clearance Height:</strong> 10.3 feet<br><strong>Underpass:</strong> FDR DRIVE<br><strong>Speed Limit of Underpass:</strong> 40 mph<br><strong>Direction(s):</strong> <br>North: 2<br>South: 2<br><strong>Date Range:</strong> 05/12/2017-<br>08/04/2020</div>`)[0];
+                popup_5cbf6bce6a1d043cb031255ed6204066.setContent(html_441258e2da619d785ade2cadd1c144ba);
+            
+        
+
+        marker_0cfe1ade4af2f88fd89665068480e7b1.bindPopup(popup_5cbf6bce6a1d043cb031255ed6204066)
+        ;
+
+        
+    
+    
+            var marker_8ec32d6ee1c2a99b0d4099892d0397e5 = L.marker(
+                [40.687361, -73.724915],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_cab33aff8793a6b836801a076d8dfc9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "black", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_8ec32d6ee1c2a99b0d4099892d0397e5.setIcon(icon_cab33aff8793a6b836801a076d8dfc9f);
+        
+    
+        var popup_6043d467ad2bd387bf9487745b91c88c = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_133491404c5450b3a1097ae54961ad4c = $(`<div id="html_133491404c5450b3a1097ae54961ad4c" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2266770<br><strong>Year Built:</strong> 1939<br><strong>Clearance Height:</strong> 8.3 feet<br><strong>Underpass:</strong> SOUTHERN STATE PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 12<br>South: 9<br>West: 1<br>North: 1<br><strong>Date Range:</strong> 03/11/2014-<br>01/05/2024</div>`)[0];
+                popup_6043d467ad2bd387bf9487745b91c88c.setContent(html_133491404c5450b3a1097ae54961ad4c);
+            
+        
+
+        marker_8ec32d6ee1c2a99b0d4099892d0397e5.bindPopup(popup_6043d467ad2bd387bf9487745b91c88c)
+        ;
+
+        
+    
+    
+            var marker_d3dcf75264227a8d260ec493dc0f4c6a = L.marker(
+                [40.752929, -73.851261],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_550c61a81a30b437b0a83ee056019854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_d3dcf75264227a8d260ec493dc0f4c6a.setIcon(icon_550c61a81a30b437b0a83ee056019854);
+        
+    
+        var popup_21de383bef35c41a1123df3b81262418 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_7412614c4de373334fb3e3be06c5e76a = $(`<div id="html_7412614c4de373334fb3e3be06c5e76a" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2267160<br><strong>Year Built:</strong> 1936<br><strong>Clearance Height:</strong> 12.8 feet<br><strong>Underpass:</strong> SHEA ROAD<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br><br><strong>Date Range:</strong> 11/22/2017-<br>11/22/2017</div>`)[0];
+                popup_21de383bef35c41a1123df3b81262418.setContent(html_7412614c4de373334fb3e3be06c5e76a);
+            
+        
+
+        marker_d3dcf75264227a8d260ec493dc0f4c6a.bindPopup(popup_21de383bef35c41a1123df3b81262418)
+        ;
+
+        
+    
+    
+            var marker_8cf69db7129000e5293d565cb1e7c9c2 = L.marker(
+                [40.701653, -73.990212],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_f0e5b6bbaa4c26c7da7f53e861e0a86e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_8cf69db7129000e5293d565cb1e7c9c2.setIcon(icon_f0e5b6bbaa4c26c7da7f53e861e0a86e);
+        
+    
+        var popup_6a5e3f701bb990b977fab746d26d8c59 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_34291e11cc6739f1793f1493ec00ba02 = $(`<div id="html_34291e11cc6739f1793f1493ec00ba02" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 2268507<br><strong>Year Built:</strong> 1944<br><strong>Clearance Height:</strong> 13.3 feet<br><strong>Underpass:</strong> YORK STREET<br><strong>Speed Limit of Underpass:</strong> 25 mph<br><strong>Direction(s):</strong> <br>East: 2<br><strong>Date Range:</strong> 06/04/2013-<br>06/04/2013</div>`)[0];
+                popup_6a5e3f701bb990b977fab746d26d8c59.setContent(html_34291e11cc6739f1793f1493ec00ba02);
+            
+        
+
+        marker_8cf69db7129000e5293d565cb1e7c9c2.bindPopup(popup_6a5e3f701bb990b977fab746d26d8c59)
+        ;
+
+        
+    
+    
+            var marker_be99a557b554dede4f1817ccbe4dc06c = L.marker(
+                [40.609572, -74.034941],
+                {}
+            ).addTo(map_e624cb63892549fa75c28308c8bc287f);
+        
+    
+            var icon_957259f04c9b73901d10f0a93707df65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_be99a557b554dede4f1817ccbe4dc06c.setIcon(icon_957259f04c9b73901d10f0a93707df65);
+        
+    
+        var popup_efcff2d9651029189bcfb257afceb753 = L.popup({"maxWidth": 200, "minWidth": 150});
+
+        
+            
+                var html_6a029dff00222fd069c4f80ae75fc3da = $(`<div id="html_6a029dff00222fd069c4f80ae75fc3da" style="width: 100.0%; height: 100.0%;"><strong>Bridge ID:</strong> 5521900<br><strong>Year Built:</strong> 1961<br><strong>Clearance Height:</strong> 16.1 feet<br><strong>Underpass:</strong> BELT PARKWAY<br><strong>Speed Limit of Underpass:</strong> 50 mph<br><strong>Direction(s):</strong> <br>East: 1<br><strong>Date Range:</strong> 10/19/2017-<br>10/19/2017</div>`)[0];
+                popup_efcff2d9651029189bcfb257afceb753.setContent(html_6a029dff00222fd069c4f80ae75fc3da);
+            
+        
+
+        marker_be99a557b554dede4f1817ccbe4dc06c.bindPopup(popup_efcff2d9651029189bcfb257afceb753)
+        ;
+
+        
+    
+</script>
+</html>
